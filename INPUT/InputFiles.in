@@ -1,0 +1,47 @@
+OrbData:
+iEarth5-049.in 			Parameter input file 						(unit 1 | .in)
+Earth5R.feg 			Grid input file 							(unit 2 | .feg)
+ETOPO20.grd 			elevation/topography/bathymetry				(unit 3 | .grd)
+age_1p5.grd 			age of seafloor								(unit 7 | .grd)
+CRUST2.grd 				thickness of crust							(unit 11 | .grd)  
+delta_ts.grd 			S-wave travel-time anomaly in upper mantle	(unit 12 | .grd)
+------------------------------------------------------------------------------------------
+
+Shells:
+Earth5R.feg 					Grid input file (unit 1 | .feg)
+Earth5R-type4AplusA.bcs			Boundary condition file (unit 2 | .bcs)
+iEarth5-049.in 			 		Parameter input file (unit 3 | .in)
+PB2002_plates.dig				Outlines of Plates (unit 8 | .dig)
+PB2002_boundaries.dig			Plate-Pair boundaries (unit 9 | .dig)
+------------------------------
+X 								Approx Vel solution (unit 11 | .)
+X 								Mantle Flow (unit 12 | .)
+X 								Torque & Force balance (unit 13 | .)
+X 								non-default Lithospheric Rheologies (unit 14 | .)
+------------------------------------------------------------------------------------------
+
+Shells (Final run):
+Earth5R.feg 					Grid input file (unit 1 | .feg)
+Earth5R-type4A.bcs				Boundary condition file (unit 2 | .bcs)
+iEarth5-049.in 				 	Parameter input file (unit 3 | .in)
+PB2002_plates.dig				Outlines of Plates (unit 8 | .dig)
+PB2002_boundaries.dig			Plate-Pair boundaries (unit 9 | .dig)
+------------------------------
+X								Approx Vel solution (unit 11 | .)
+X								Mantle Flow (unit 12 | .)
+X								Torque & Force balance (unit 13 | .)
+X								non-default Lithospheric Rheologies (unit 14 | .)
+------------------------------------------------------------------------------------------
+
+OrbScore:
+Earth5R.feg 									Grid input file (unit 1 | .feg)
+iEarth5-049.in 									Parameter input file (unit 2 | .in)
+------------------------------
+GPS2006_selected_subset.gps									 (unit 11 | .gps)
+robust_interpolated_stress_for_OrbScore2.dat 	             (unit 12 | .dat)
+slip_rate_format.txt 										 (unit 13 | .txt)
+magnetic_PB2002.dat 										 (unit 14 | .dat)
+GCMT_shallow_m5p7_1977-2017.eqc 							 (unit 15 | .eqc)
+Fouch_2004_SKS_splitting-selected.dat 						 (unit 33 | .dat) Only if unit 15
+PB2002_plates.dig					 						 (unit 35 | .dig) Only if unit 15 & 33
+------------------------------------------------------------------------------------------

@@ -1,0 +1,31 @@
+geodesy.gps: ROBAUDO.HARRISON.Y993: JOINT SLR/VLBI VELOCITY SOLUTION IN NA REF. FRAME
+(    F9.3,    F10.3,    F9.3,    F9.3,    F10.3,    F10.3,      F12.3,1X,     A15,  1X,    A      )
+E_lon_deg N_lat_deg v_E_mmpa v_N_mmpa v_E_sigma v_N_sigma correlation reference_frame identifier(s)
+  212.520    64.970    0.547   -1.289     0.400     0.400       0.000 NA              Fairbanks, AK
+  256.070    30.630   -0.424    0.424     0.400     0.400       0.000 NA              Fort Davis, TX
+  255.280    40.170    0.135   -0.585     0.500     0.500       0.000 NA              Platteville, CO
+  279.620    25.610    0.497    0.052     0.400     0.400       0.000 NA              Richmond, FL
+  288.520    42.600    0.529   -0.728     0.300     0.300       0.000 NA              Westford, MA
+  217.520    60.070  -16.487   27.426     1.200     1.200       0.000 NA              Yakataga, AK
+  245.670    32.900   -0.950    1.645     0.600     0.600       0.000 NA              Yuma, AZ
+    0.340    50.870   17.989   -0.627     0.725     0.725       0.000 NA              Greenwich, England
+  140.650    35.950   -6.468    8.898     0.900     0.900       0.000 NA              Kashima, Japan
+   16.700    40.650   20.445    3.239     0.900     0.900       0.000 NA              Matera, Italy
+   11.650    44.520   18.859   -2.314     1.200     1.200       0.000 NA              Medicina, Italy
+   13.060    52.380   11.595  -12.432     1.400     1.400       0.000 NA              Potsdam, Germany
+   11.930    57.400   12.991   -7.499     0.700     0.700       0.000 NA              Onsala, Sweden
+  135.000    33.570  -10.631   11.004     0.900     0.900       0.000 NA              Simosato, Japan
+  121.200    31.010    4.277    2.179     1.050     1.050       0.000 NA              Shanghai, PRC
+   12.880    49.160   14.617   -6.507     0.650     0.650       0.000 NA              Wettzel, Germany
+    7.450    46.870   16.935   -1.481     0.750     0.750       0.000 NA              Zimmerwald, Switzerl
+  238.230    36.670  -26.967   38.494     0.650     0.650       0.000 NA              Fort Ord, CA
+  208.960   -16.730  -60.626   42.432     1.400     1.400       0.000 NA              Huahine, Polynesia
+  200.330    22.120  -57.288   57.263     0.600     0.600       0.000 NA              Kauai, HI
+  167.470     9.380  -69.492   52.343     1.450     1.450       0.000 NA              Kwajalein, Marshalls
+  203.740    20.710  -55.104   47.881     0.650     0.650       0.000 NA              Lure, HI
+  239.520    34.550  -29.586   36.519     0.250     0.250       0.000 NA              Vandenberg, CA
+  148.950   -35.630   23.440   68.078     1.050     1.050       0.000 NA              Orroral, Australia
+  148.980   -35.400   28.045   77.055     8.100     8.100       0.000 NA              Tidbinbilla, Austral
+  115.340   -29.050   47.542   63.093     0.500     0.500       0.000 NA              Yaragadee, Australia
+  288.510   -16.460   10.649    7.457     0.750     0.750       0.000 NA              Arequipa, Peru
+  250.620   -27.150   55.492   -0.965     1.400     1.400       0.000 NA              Easter Island

@@ -1,0 +1,17 @@
+Reversing dextral fault      <-- name of fault (or of slip-rate datum)
+F 2.0  8.0  0  0               <-- minimum_dextral, maximum_dextral, minimum_throw, maximum_throw (mm/year)
+ +1.68342E+02,+4.25130E+01   <-- east_longitude, North_latitude (from Digitise and Projector)
+*** END OF SEGMENT ***       <-- standard Digitise/Projector marker for end of line
+Reversing sinistral fault
+F -9.0 -4.1  0  0              <-- use negative dextral values for sinistral faulting
+ +1.68976E+02,+4.20122E+01
+*** END OF SEGMENT ***
+Ficticious thrust fault
+F 0  0  0.001  2               <-- use positive throw values for thrusting
+ +1.70276E+02,+4.33622E+01
+*** END OF SEGMENT ***
+Bogus normal fault
+F 0  0  -5  -0.001             <-- use negative throw values for normal-faulting
+ +1.68976E+02,+4.20122E+01
+*** END OF SEGMENT ***      [General Notes: "0" = "no limit is known"; use "0.001" for "active".   ]
+                            [               Be sure that slip-rates in mm/year are preceded by "F".]

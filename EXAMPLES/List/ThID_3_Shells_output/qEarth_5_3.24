@@ -1,0 +1,2086 @@
+ Earth5R.feg: = Earth5Q.feg, with reduced Q=0.054 in India, increased Q=0.050 in
+ Earth5R-type4AplusA.bcs: forced slabs(4), w/ exceptions (A); internal(5) set A
+ iEarth5-049.in: Grid search test on taumax & ffric
+ 
+
+ Torque-balance reports for each of  52 plates (fFric 0.520, tauMax  1.8E+12\ 1.8E+12):
+
+ plate #     1 =AF:   1288 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               6.53E+25 -1.25E+26  4.24E+25 1.471E+26    -62.40     16.76
+ Velocity-Boundary-C.'s     1.94E+25  2.63E+25  6.60E+24 3.331E+25     53.62     11.43
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            8.46E+25 -9.85E+25  4.90E+25 1.388E+26    -49.34     20.67
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -7.53E+25  1.43E+26  2.00E+25 1.627E+26    117.79      7.08
+ Continuum-Link [PLUG]:    -2.79E+25 -3.26E+25 -5.49E+25 6.966E+25   -130.56    -51.97
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -1.03E+26  1.10E+26 -3.48E+25 1.549E+26    133.12    -12.99
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.85E+25 -1.17E+25 -1.42E+25 2.608E+25    -32.15    -32.93
+ Side-Strength:            -1.03E+26  1.10E+26 -3.48E+25 1.549E+26    133.12    -12.99
+ Basal-Strength:            8.46E+25 -9.85E+25  4.90E+25 1.388E+26    -49.34     20.67
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            8.58E+05 -2.68E+05  1.74E+05 9.152E+05    -17.35     10.94
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  46.97E, 16.25N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.05E+18 -2.27E+18  3.24E+18 4.094E+18     325.5
+ Side-strength:             8.68E+18  9.48E+17 -2.27E+19 2.432E+19     193.5
+ Basal-strength:           -9.73E+18  1.32E+18  1.95E+19 2.179E+19      21.6
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (   2.86E,   0.60N).
+ ======================================================================================
+
+ plate #     2 =AM:    134 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -1.24E+25 -6.30E+25  2.57E+25 6.918E+25   -101.17     21.79
+ Velocity-Boundary-C.'s     9.62E+24 -4.60E+24  6.05E+24 1.226E+25    -25.55     29.57
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -2.82E+24 -6.76E+25  3.17E+25 7.475E+25    -92.39     25.11
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -1.30E+25  9.28E+25 -6.74E+25 1.154E+26     98.00    -35.72
+ Continuum-Link [PLUG]:     2.19E+25 -1.19E+25  2.82E+25 3.768E+25    -28.51     48.48
+ -------------------------------------------------------------------------------------
+ Side-Strength:             8.90E+24  8.09E+25 -3.92E+25 9.029E+25     83.72    -25.70
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -6.08E+24 -1.32E+25  7.43E+24 1.636E+25   -114.68     27.02
+ Side-Strength:             8.90E+24  8.09E+25 -3.92E+25 9.029E+25     83.72    -25.70
+ Basal-Strength:           -2.82E+24 -6.76E+25  3.17E+25 7.475E+25    -92.39     25.11
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            7.88E+06 -1.30E+07 -1.30E+07 2.001E+07    -58.75    -40.62
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  64.43E, 62.98N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -2.33E+18  1.08E+18  1.62E+16 2.567E+18      89.2
+ Side-strength:             1.38E+19 -2.45E+18 -1.92E+18 1.417E+19     252.7
+ Basal-strength:           -1.15E+19  1.37E+18  1.90E+18 1.173E+19      69.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 127.74E,  46.43N).
+ ======================================================================================
+
+ plate #     3 =AN:   1264 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               2.71E+25 -1.55E+25  3.61E+25 4.771E+25    -29.71     49.14
+ Velocity-Boundary-C.'s    -2.61E+24 -6.66E+24  6.23E+24 9.486E+24   -111.40     41.09
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            2.45E+25 -2.21E+25  4.23E+25 5.367E+25    -42.09     52.04
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -2.22E+25  5.32E+25 -4.13E+25 7.096E+25    112.61    -35.63
+ Continuum-Link [PLUG]:     2.15E+10 -3.44E+10 -3.44E+10 5.313E+10    -57.99    -40.30
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -2.22E+25  5.32E+25 -4.13E+25 7.096E+25    112.61    -35.63
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -2.32E+24 -3.11E+25 -9.78E+23 3.122E+25    -94.27     -1.79
+ Side-Strength:            -2.22E+25  5.32E+25 -4.13E+25 7.096E+25    112.61    -35.63
+ Basal-Strength:            2.45E+25 -2.21E+25  4.23E+25 5.367E+25    -42.09     52.04
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            4.90E+04 -1.03E+05  4.66E+05 4.796E+05    -64.56     76.25
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  -3.18E,-31.26N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      2.53E+18 -3.20E+17  4.19E+18 4.900E+18     357.9
+ Side-strength:            -4.64E+18 -7.34E+18 -6.97E+18 1.114E+19     223.0
+ Basal-strength:            2.12E+18  7.66E+18  2.78E+18 8.424E+18      67.3
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  57.74E, -83.98N).
+ ======================================================================================
+
+ plate #     4 =AP:     85 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -3.20E+25 -2.75E+25  3.92E+25 5.760E+25   -139.28     42.94
+ Velocity-Boundary-C.'s    -9.05E+24 -8.30E+24  1.17E+25 1.697E+25   -137.45     43.63
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -4.10E+25 -3.58E+25  5.09E+25 7.456E+25   -138.87     43.10
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            1.31E+25  1.08E+25 -1.43E+25 2.225E+25     39.59    -40.10
+ Continuum-Link [PLUG]:     1.23E+25  1.54E+25 -2.43E+25 3.136E+25     51.43    -50.94
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.54E+25  2.63E+25 -3.87E+25 5.324E+25     45.95    -46.59
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.56E+25  9.51E+24 -1.23E+25 2.198E+25     31.43    -33.92
+ Side-Strength:             2.54E+25  2.63E+25 -3.87E+25 5.324E+25     45.95    -46.59
+ Basal-Strength:           -4.10E+25 -3.58E+25  5.09E+25 7.456E+25   -138.87     43.10
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            4.58E+07 -1.51E+08 -3.74E+07 1.619E+08    -73.10    -13.36
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -81.10E,-29.68N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -2.39E+18  9.51E+17 -2.30E+18 3.450E+18     220.0
+ Side-strength:            -7.26E+18  1.16E+18 -3.98E+18 8.357E+18     236.7
+ Basal-strength:            9.65E+18 -2.11E+18  6.28E+18 1.170E+19      51.9
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -70.13E, -17.84N).
+ ======================================================================================
+
+ plate #     5 =AR:    188 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               6.11E+25 -1.14E+26  9.78E+25 1.620E+26    -61.78     37.14
+ Velocity-Boundary-C.'s    -1.25E+24 -2.04E+25  3.37E+25 3.941E+25    -93.50     58.71
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            5.98E+25 -1.34E+26  1.32E+26 1.972E+26    -65.98     41.82
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -4.89E+25  1.25E+26 -1.39E+26 1.936E+26    111.35    -46.05
+ Continuum-Link [PLUG]:    -9.00E+24  1.10E+25 -5.49E+24 1.524E+25    129.27    -21.10
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -5.79E+25  1.36E+26 -1.45E+26 2.071E+26    113.04    -44.40
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.92E+24 -1.91E+24  1.34E+25 1.363E+25   -135.12     78.54
+ Side-Strength:            -5.79E+25  1.36E+26 -1.45E+26 2.071E+26    113.04    -44.40
+ Basal-Strength:            5.98E+25 -1.34E+26  1.32E+26 1.972E+26    -65.98     41.82
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.90E+06 -4.40E+06  4.24E+06 6.397E+06    -66.61     41.51
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  34.29E, 11.27N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.22E+18  1.76E+18  7.66E+16 2.140E+18      87.9
+ Side-strength:             1.67E+19 -1.66E+19 -2.23E+19 3.250E+19     225.5
+ Basal-strength:           -1.55E+19  1.49E+19  2.23E+19 3.095E+19      42.8
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  47.56E,  26.35N).
+ ======================================================================================
+
+ plate #     6 =AS:    415 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -2.02E+24  1.73E+25 -6.32E+24 1.856E+25     96.66    -19.89
+ Velocity-Boundary-C.'s     1.38E+23 -2.72E+24  1.31E+24 3.019E+24    -87.10     25.65
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -1.89E+24  1.46E+25 -5.01E+24 1.557E+25     97.35    -18.76
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.05E+24 -1.41E+25  3.83E+24 1.495E+25    -77.82     14.85
+ Continuum-Link [PLUG]:    -1.38E+23 -6.96E+24  3.57E+24 7.825E+24    -91.14     27.18
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.91E+24 -2.11E+25  7.41E+24 2.254E+25    -82.14     19.18
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.03E+24  6.47E+24 -2.40E+24 6.974E+24     99.01    -20.10
+ Side-Strength:             2.91E+24 -2.11E+25  7.41E+24 2.254E+25    -82.14     19.18
+ Basal-Strength:           -1.89E+24  1.46E+25 -5.01E+24 1.557E+25     97.35    -18.76
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.76E+08  9.03E+07  1.43E+08 2.442E+08     27.21     35.99
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -13.05E,-45.74N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -7.86E+17 -3.71E+17 -6.65E+17 1.095E+18     209.5
+ Side-strength:             2.55E+18  1.12E+18  2.18E+18 3.538E+18      28.1
+ Basal-strength:           -1.77E+18 -7.46E+17 -1.51E+18 2.444E+18     207.4
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  25.46E,  36.81N).
+ ======================================================================================
+
+ plate #     7 =AT:    192 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.59E+25  1.76E+25 -3.01E+25 3.827E+25     47.80    -51.74
+ Velocity-Boundary-C.'s     4.31E+24 -3.55E+24 -1.14E+24 5.697E+24    -39.51    -11.58
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            2.02E+25  1.40E+25 -3.12E+25 3.973E+25     34.71    -51.74
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -1.83E+25 -2.57E+25  3.89E+25 5.014E+25   -125.41     50.95
+ Continuum-Link [PLUG]:     4.59E+24 -1.53E+24 -5.08E+24 7.011E+24    -18.48    -46.40
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -1.37E+25 -2.73E+25  3.39E+25 4.560E+25   -116.70     47.96
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -6.51E+24  1.33E+25 -2.67E+24 1.502E+25    116.12    -10.24
+ Side-Strength:            -1.37E+25 -2.73E+25  3.39E+25 4.560E+25   -116.70     47.96
+ Basal-Strength:            2.02E+25  1.40E+25 -3.12E+25 3.973E+25     34.71    -51.74
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            5.96E+06  4.11E+06 -8.37E+06 1.106E+07     34.62    -49.11
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  34.31E, 38.26N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.48E+18  3.61E+17 -1.80E+18 2.357E+18     193.1
+ Side-strength:            -5.00E+18  4.78E+18  1.82E+18 7.157E+18      71.1
+ Basal-strength:            3.53E+18 -5.14E+18 -2.09E+16 6.236E+18     269.8
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  29.37E,  38.78N).
+ ======================================================================================
+
+ plate #     8 =AU:    999 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               0.00E+00  0.00E+00  0.00E+00 0.000E+00      0.00      0.00
+ Velocity-Boundary-C.'s     2.58E+26  7.76E+25  2.78E+25 2.709E+26     16.74      5.90
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            2.58E+26  7.76E+25  2.78E+25 2.709E+26     16.74      5.90
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -1.04E+26 -1.10E+26 -1.45E+26 2.098E+26   -133.16    -43.79
+ Continuum-Link [PLUG]:    -2.06E+26 -1.32E+24  1.11E+26 2.340E+26   -179.63     28.34
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -3.10E+26 -1.12E+26 -3.41E+25 3.309E+26   -160.14     -5.92
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      5.15E+25  3.42E+25  6.28E+24 6.218E+25     33.57      5.79
+ Side-Strength:            -3.10E+26 -1.12E+26 -3.41E+25 3.309E+26   -160.14     -5.92
+ Basal-Strength:            2.58E+26  7.76E+25  2.78E+25 2.709E+26     16.74      5.90
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.50E+06 -3.02E+05  5.94E+05 1.642E+06    -11.37     21.20
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  21.72E,-84.08N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -5.38E+18  8.14E+18 -2.06E+17 9.760E+18     101.8
+ Side-strength:             1.77E+19 -4.88E+19 -1.73E+17 5.194E+19     268.1
+ Basal-strength:           -1.23E+19  4.07E+19  3.79E+17 4.252E+19      85.0
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 122.75E, -30.59N).
+ ======================================================================================
+
+ plate #     9 =BH:     22 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.63E+25  1.22E+25 -6.27E+25 6.596E+25     36.86    -72.03
+ Velocity-Boundary-C.'s     6.48E+24  4.90E+24 -2.89E+25 3.006E+25     37.09    -74.33
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            2.28E+25  1.71E+25 -9.17E+25 9.600E+25     36.93    -72.75
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -2.39E+25 -1.76E+25  9.16E+25 9.631E+25   -143.54     72.06
+ Continuum-Link [PLUG]:    -4.29E+09 -4.29E+09  1.72E+10 1.822E+10   -135.00     70.53
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -2.39E+25 -1.76E+25  9.16E+25 9.631E+25   -143.54     72.06
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.11E+24  5.31E+23  6.38E+22 1.232E+24     25.59      2.97
+ Side-Strength:            -2.39E+25 -1.76E+25  9.16E+25 9.631E+25   -143.54     72.06
+ Basal-Strength:            2.28E+25  1.71E+25 -9.17E+25 9.600E+25     36.93    -72.75
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            3.11E+07 -2.17E+07 -2.68E+07 4.640E+07    -34.92    -35.22
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 115.76E,  3.44N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -4.00E+15 -1.48E+16  1.93E+17 1.933E+17       3.0
+ Side-strength:            -1.31E+19 -6.02E+18 -4.57E+18 1.512E+19     107.6
+ Basal-strength:            1.31E+19  6.03E+18  4.38E+18 1.507E+19     286.9
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 132.17E,  -1.47N).
+ ======================================================================================
+
+ plate #    10 =BR:     12 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.48E+23 -7.12E+23 -6.49E+23 9.748E+23    -78.28    -41.73
+ Velocity-Boundary-C.'s     5.29E+22 -3.15E+23 -1.89E+23 3.712E+23    -80.48    -30.56
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            2.01E+23 -1.03E+24 -8.38E+23 1.341E+24    -78.95    -38.66
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -2.05E+23  1.42E+24  9.32E+23 1.714E+24     98.19     32.94
+ Continuum-Link [PLUG]:    -3.36E+07  0.00E+00  0.00E+00 3.355E+07    180.00      0.00
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -2.05E+23  1.42E+24  9.32E+23 1.714E+24     98.19     32.94
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      4.21E+21 -3.96E+23 -9.42E+22 4.072E+23    -89.39    -13.38
+ Side-Strength:            -2.05E+23  1.42E+24  9.32E+23 1.714E+24     98.19     32.94
+ Basal-Strength:            2.01E+23 -1.03E+24 -8.38E+23 1.341E+24    -78.95    -38.66
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            3.25E+07 -3.13E+06  8.07E+06 3.365E+07     -5.49     13.88
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 176.25E,-17.70N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.98E+16  1.43E+16 -5.91E+16 6.391E+16     194.1
+ Side-strength:            -7.70E+16 -1.49E+17  2.10E+17 2.690E+17      34.8
+ Basal-strength:            5.72E+16  1.35E+17 -1.51E+17 2.104E+17     221.0
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 176.27E, -15.30N).
+ ======================================================================================
+
+ plate #    11 =BS:     30 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.10E+25  5.34E+24 -2.67E+25 2.936E+25     25.82    -65.31
+ Velocity-Boundary-C.'s     1.96E+24  1.29E+24 -1.49E+24 2.779E+24     33.42    -32.33
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            1.30E+25  6.63E+24 -2.82E+25 3.172E+25     27.04    -62.61
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -2.59E+24  2.03E+23  2.41E+25 2.428E+25    175.51     83.86
+ Continuum-Link [PLUG]:    -4.67E+10 -2.97E+10  1.29E+10 5.681E+10   -147.58     13.11
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -2.59E+24  2.03E+23  2.41E+25 2.428E+25    175.51     83.86
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.04E+25 -6.84E+24  4.02E+24 1.309E+25   -146.71     17.88
+ Side-Strength:            -2.59E+24  2.03E+23  2.41E+25 2.428E+25    175.51     83.86
+ Basal-Strength:            1.30E+25  6.63E+24 -2.82E+25 3.172E+25     27.04    -62.61
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -1.55E+06  7.79E+06 -7.04E+06 1.061E+07    101.26    -41.58
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 124.54E, -3.87N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -4.46E+17 -4.67E+17 -1.95E+18 2.054E+18     162.1
+ Side-strength:            -3.12E+18 -2.17E+18 -3.16E+17 3.811E+18      94.8
+ Basal-strength:            3.56E+18  2.64E+18  2.27E+18 4.978E+18     297.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 126.16E,  -4.61N).
+ ======================================================================================
+
+ plate #    12 =BU:     28 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               5.22E+25  3.48E+24 -1.59E+25 5.469E+25      3.81    -16.92
+ Velocity-Boundary-C.'s     7.63E+24  1.13E+24 -1.02E+25 1.276E+25      8.42    -52.81
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            5.98E+25  4.61E+24 -2.61E+25 6.544E+25      4.40    -23.49
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -5.02E+25 -4.97E+24  3.24E+25 5.996E+25   -174.35     32.75
+ Continuum-Link [PLUG]:    -3.62E+24  2.60E+23 -2.16E+24 4.226E+24    175.90    -30.74
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -5.38E+25 -4.71E+24  3.03E+25 6.191E+25   -175.00     29.27
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -6.03E+24  1.01E+23 -4.19E+24 7.345E+24    179.04    -34.77
+ Side-Strength:            -5.38E+25 -4.71E+24  3.03E+25 6.191E+25   -175.00     29.27
+ Basal-Strength:            5.98E+25  4.61E+24 -2.61E+25 6.544E+25      4.40    -23.49
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            3.19E+07 -1.96E+08 -3.97E+07 2.029E+08    -80.76    -11.29
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  92.34E,  4.73N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      6.56E+17  1.05E+17 -9.42E+17 1.153E+18     214.9
+ Side-strength:            -4.79E+18  5.04E+17 -8.44E+18 9.718E+18     150.6
+ Basal-strength:            4.14E+18 -6.09E+17  9.38E+18 1.027E+19     336.4
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  94.11E,   9.26N).
+ ======================================================================================
+
+ plate #    13 =CA:     82 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -1.01E+25  6.37E+25  3.05E+26 3.115E+26     98.96     78.05
+ Velocity-Boundary-C.'s     2.43E+25  1.26E+25  1.75E+25 3.255E+25     27.45     32.59
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            1.43E+25  7.64E+25  3.22E+26 3.315E+26     79.40     76.45
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.09E+25 -5.98E+25 -3.26E+26 3.329E+26    -62.70    -78.34
+ Continuum-Link [PLUG]:     5.15E+10  3.44E+10 -1.37E+11 1.508E+11     33.69    -65.74
+ -------------------------------------------------------------------------------------
+ Side-Strength:             3.09E+25 -5.98E+25 -3.26E+26 3.329E+26    -62.70    -78.34
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -4.51E+25 -1.66E+25  3.71E+24 4.824E+25   -159.82      4.41
+ Side-Strength:             3.09E+25 -5.98E+25 -3.26E+26 3.329E+26    -62.70    -78.34
+ Basal-Strength:            1.43E+25  7.64E+25  3.22E+26 3.315E+26     79.40     76.45
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.11E+07 -3.01E+07  2.65E+07 4.167E+07    -69.73     39.57
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -68.91E, 11.59N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      8.86E+15  1.63E+18  7.39E+18 7.572E+18       4.5
+ Side-strength:            -4.87E+19 -1.90E+19 -1.12E+18 5.225E+19     268.7
+ Basal-strength:            4.86E+19  1.74E+19 -6.27E+18 5.204E+19      97.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -73.53E,  15.08N).
+ ======================================================================================
+
+ plate #    14 =CL:     42 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               0.00E+00  0.00E+00  0.00E+00 0.000E+00      0.00      0.00
+ Velocity-Boundary-C.'s    -7.86E+24 -1.38E+25  8.06E+25 8.216E+25   -119.59     78.83
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -7.86E+24 -1.38E+25  8.06E+25 8.216E+25   -119.59     78.83
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            4.50E+24  8.92E+24 -7.95E+25 8.014E+25     63.24    -82.84
+ Continuum-Link [PLUG]:     5.05E+10  4.83E+10  5.15E+10 8.682E+10     43.75     36.42
+ -------------------------------------------------------------------------------------
+ Side-Strength:             4.50E+24  8.92E+24 -7.95E+25 8.014E+25     63.24    -82.84
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      3.37E+24  4.93E+24 -1.09E+24 6.068E+24     55.68    -10.35
+ Side-Strength:             4.50E+24  8.92E+24 -7.95E+25 8.014E+25     63.24    -82.84
+ Basal-Strength:           -7.86E+24 -1.38E+25  8.06E+25 8.216E+25   -119.59     78.83
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -1.98E+07  1.42E+07  9.62E+06 2.622E+07    144.37     21.52
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 145.50E,  0.97N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.10E+17  1.32E+17  9.37E+17 9.524E+17     349.7
+ Side-strength:             7.09E+18  1.03E+19  1.55E+18 1.258E+19     277.1
+ Basal-strength:           -7.20E+18 -1.04E+19 -2.49E+18 1.290E+19     101.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 140.66E,   3.27N).
+ ======================================================================================
+
+ plate #    15 =CO:     78 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               0.00E+00  0.00E+00  0.00E+00 0.000E+00      0.00      0.00
+ Velocity-Boundary-C.'s    -2.91E+25  5.30E+24  1.46E+25 3.295E+25    169.67     26.30
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -2.91E+25  5.30E+24  1.46E+25 3.295E+25    169.67     26.30
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.78E+25 -6.76E+24 -1.85E+25 4.264E+25    -10.14    -25.78
+ Continuum-Link [PLUG]:     8.59E+09 -3.22E+09 -2.15E+09 9.422E+09    -20.56    -13.17
+ -------------------------------------------------------------------------------------
+ Side-Strength:             3.78E+25 -6.76E+24 -1.85E+25 4.264E+25    -10.14    -25.78
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -8.74E+24  1.46E+24  3.94E+24 9.698E+24    170.50     24.00
+ Side-Strength:             3.78E+25 -6.76E+24 -1.85E+25 4.264E+25    -10.14    -25.78
+ Basal-Strength:           -2.91E+25  5.30E+24  1.46E+25 3.295E+25    169.67     26.30
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -1.36E+06  2.96E+06  3.96E+05 3.283E+06    114.63      6.94
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -92.05E, 16.25N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      6.58E+17  3.63E+17  1.32E+18 1.522E+18      25.1
+ Side-strength:            -3.09E+18 -1.56E+18 -5.73E+18 6.693E+18     206.9
+ Basal-strength:            2.43E+18  1.20E+18  4.40E+18 5.172E+18      27.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -94.37E,   8.34N).
+ ======================================================================================
+
+ plate #    16 =CR:     11 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -1.15E+23  1.04E+24  5.94E+23 1.203E+24     96.30     29.62
+ Velocity-Boundary-C.'s    -1.27E+23  1.89E+23  4.53E+23 5.067E+23    123.75     63.29
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -2.41E+23  1.23E+24  1.05E+24 1.632E+24    101.11     39.91
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            2.25E+23 -1.01E+24 -9.67E+23 1.418E+24    -77.50    -42.97
+ Continuum-Link [PLUG]:    -3.36E+07  1.34E+08  4.03E+08 4.258E+08    104.04     71.04
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.25E+23 -1.01E+24 -9.67E+23 1.418E+24    -77.50    -42.97
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.66E+22 -2.16E+23 -8.06E+22 2.308E+23    -85.60    -20.43
+ Side-Strength:             2.25E+23 -1.01E+24 -9.67E+23 1.418E+24    -77.50    -42.97
+ Basal-Strength:           -2.41E+23  1.23E+24  1.05E+24 1.632E+24    101.11     39.91
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.68E+07 -2.71E+05  7.12E+06 1.827E+07     -0.92     22.94
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 179.07E,-14.01N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      8.39E+15  1.29E+16 -3.28E+16 3.623E+16     201.1
+ Side-strength:             4.09E+16  1.56E+17 -1.54E+17 2.226E+17     224.6
+ Basal-strength:           -4.93E+16 -1.69E+17  1.86E+17 2.562E+17      41.4
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 174.85E, -19.11N).
+ ======================================================================================
+
+ plate #    17 =EA:     11 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -5.92E+23  1.56E+23  2.32E+23 6.544E+23    165.26     20.73
+ Velocity-Boundary-C.'s    -4.53E+21 -2.11E+21  1.46E+22 1.540E+22   -155.06     71.05
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -5.96E+23  1.54E+23  2.46E+23 6.633E+23    165.56     21.79
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            8.40E+23 -2.33E+23 -3.05E+23 9.231E+23    -15.48    -19.28
+ Continuum-Link [PLUG]:    -4.03E+08  6.71E+08 -1.07E+09 1.329E+09    120.96    -53.91
+ -------------------------------------------------------------------------------------
+ Side-Strength:             8.40E+23 -2.33E+23 -3.05E+23 9.231E+23    -15.48    -19.28
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -2.43E+23  7.90E+22  5.86E+22 2.624E+23    162.00     12.92
+ Side-Strength:             8.40E+23 -2.33E+23 -3.05E+23 9.231E+23    -15.48    -19.28
+ Basal-Strength:           -5.96E+23  1.54E+23  2.46E+23 6.633E+23    165.56     21.79
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            4.24E+06  1.09E+07  5.63E+06 1.301E+07     68.81     25.62
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-112.75E,-19.88N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      3.77E+15 -1.63E+16  3.76E+16 4.118E+16      13.8
+ Side-strength:            -2.91E+16  6.22E+16 -1.28E+17 1.449E+17     200.6
+ Basal-strength:            2.53E+16 -4.59E+16  9.00E+16 1.041E+17      23.2
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-113.85E, -24.61N).
+ ======================================================================================
+
+ plate #    18 =EU:   2108 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -2.55E+26  2.27E+26  8.54E+25 3.513E+26    138.34     14.06
+ Velocity-Boundary-C.'s    -3.38E+25  4.07E+24 -7.37E+24 3.482E+25    173.13    -12.22
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -2.88E+26  2.31E+26  7.80E+25 3.774E+26    141.35     11.93
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            2.43E+26 -2.72E+26 -3.56E+25 3.662E+26    -48.24     -5.58
+ Continuum-Link [PLUG]:    -3.10E+24  2.90E+25 -5.16E+25 5.928E+25     96.09    -60.50
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.40E+26 -2.43E+26 -8.72E+25 3.521E+26    -45.38    -14.34
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      4.88E+25  1.22E+25  9.21E+24 5.109E+25     14.02     10.39
+ Side-Strength:             2.40E+26 -2.43E+26 -8.72E+25 3.521E+26    -45.38    -14.34
+ Basal-Strength:           -2.88E+26  2.31E+26  7.80E+25 3.774E+26    141.35     11.93
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -8.41E+05  1.35E+06  1.11E+06 1.944E+06    121.86     34.92
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-100.31E, 66.01N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      2.32E+18 -7.10E+18 -2.92E+18 8.019E+18     153.7
+ Side-strength:            -4.03E+19 -3.34E+19 -1.78E+19 5.527E+19     217.5
+ Basal-strength:            3.80E+19  4.05E+19  2.07E+19 5.924E+19      30.6
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  60.26E,  48.94N).
+ ======================================================================================
+
+ plate #    19 =FT:      4 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -3.75E+23  9.20E+23  1.28E+24 1.621E+24    112.15     52.21
+ Velocity-Boundary-C.'s    -3.04E+21 -1.70E+22  1.12E+22 2.060E+22   -100.12     32.97
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -3.78E+23  9.03E+23  1.29E+24 1.622E+24    112.69     52.86
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.78E+23 -8.61E+23 -1.29E+24 1.600E+24    -66.33    -54.00
+ Continuum-Link [PLUG]:     0.00E+00 -2.68E+08  0.00E+00 2.684E+08    -90.00      0.00
+ -------------------------------------------------------------------------------------
+ Side-Strength:             3.78E+23 -8.61E+23 -1.29E+24 1.600E+24    -66.33    -54.00
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.24E+20 -4.20E+22  1.78E+21 4.208E+22    -89.83      2.43
+ Side-Strength:             3.78E+23 -8.61E+23 -1.29E+24 1.600E+24    -66.33    -54.00
+ Basal-Strength:           -3.78E+23  9.03E+23  1.29E+24 1.622E+24    112.69     52.86
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -1.13E+07  3.38E+06  2.73E+06 1.213E+07    163.38     13.00
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-179.15E,-15.73N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.79E+15 -2.64E+14 -6.35E+15 6.605E+15     177.5
+ Side-strength:             3.37E+16  2.12E+17 -1.31E+17 2.511E+17     237.2
+ Basal-strength:           -3.55E+16 -2.11E+17  1.37E+17 2.545E+17      55.9
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-177.89E, -14.96N).
+ ======================================================================================
+
+ plate #    20 =GP:      5 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -2.12E+23  6.32E+22  4.95E+23 5.421E+23    163.43     65.86
+ Velocity-Boundary-C.'s     7.19E+22 -1.68E+22 -6.31E+22 9.713E+22    -13.19    -40.54
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -1.41E+23  4.64E+22  4.32E+23 4.562E+23    161.74     71.07
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            2.03E+23 -6.24E+22 -5.17E+23 5.589E+23    -17.05    -67.64
+ Continuum-Link [PLUG]:     1.68E+08 -3.36E+07  1.34E+08 2.175E+08    -11.31     38.11
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.03E+23 -6.24E+22 -5.17E+23 5.589E+23    -17.05    -67.64
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -6.27E+22  1.60E+22  8.53E+22 1.071E+23    165.71     52.82
+ Side-Strength:             2.03E+23 -6.24E+22 -5.17E+23 5.589E+23    -17.05    -67.64
+ Basal-Strength:           -1.41E+23  4.64E+22  4.32E+23 4.562E+23    161.74     71.07
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.29E+08  6.33E+08 -1.55E+07 6.463E+08     78.46     -1.37
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-101.02E,  2.48N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.32E+16 -2.13E+15  1.01E+16 1.681E+16      52.9
+ Side-strength:            -8.00E+16  1.41E+16 -3.32E+16 8.773E+16     247.8
+ Basal-strength:            6.67E+16 -1.20E+16  2.30E+16 7.161E+16      71.2
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-101.67E,   1.90N).
+ ======================================================================================
+
+ plate #    21 =IN:    312 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               6.29E+23 -9.04E+22  5.87E+23 8.645E+23     -8.19     42.73
+ Velocity-Boundary-C.'s    -9.15E+25 -7.72E+24  4.74E+25 1.034E+26   -175.18     27.30
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -9.09E+25 -7.81E+24  4.80E+25 1.031E+26   -175.09     27.74
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -8.14E+25 -2.79E+24  7.09E+25 1.080E+26   -178.04     41.06
+ Continuum-Link [PLUG]:     2.13E+26  2.89E+24 -1.14E+26 2.416E+26      0.78    -28.16
+ -------------------------------------------------------------------------------------
+ Side-Strength:             1.32E+26  9.62E+22 -4.31E+25 1.385E+26      0.04    -18.14
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -4.07E+25  7.71E+24 -4.86E+24 4.176E+25    169.29     -6.69
+ Side-Strength:             1.32E+26  9.62E+22 -4.31E+25 1.385E+26      0.04    -18.14
+ Basal-Strength:           -9.09E+25 -7.81E+24  4.80E+25 1.031E+26   -175.09     27.74
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -2.09E+06 -3.92E+06 -3.00E+05 4.453E+06   -118.07     -3.87
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  82.12E, 22.83N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.17E+18  2.39E+18 -5.99E+18 6.554E+18     187.3
+ Side-strength:             6.19E+18 -8.87E+18  1.89E+19 2.174E+19     340.3
+ Basal-strength:           -7.35E+18  6.49E+18 -1.29E+19 1.618E+19     149.7
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  78.65E,  14.95N).
+ ======================================================================================
+
+ plate #    22 =JF:     18 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               0.00E+00  0.00E+00  0.00E+00 0.000E+00      0.00      0.00
+ Velocity-Boundary-C.'s     8.37E+24  1.33E+25  1.52E+25 2.185E+25     57.77     44.09
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            8.37E+24  1.33E+25  1.52E+25 2.185E+25     57.77     44.09
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -8.21E+24 -1.31E+25 -1.49E+25 2.147E+25   -122.13    -44.06
+ Continuum-Link [PLUG]:    -1.07E+09 -2.15E+09  4.29E+09 4.921E+09   -116.57     60.79
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -8.21E+24 -1.31E+25 -1.49E+25 2.147E+25   -122.13    -44.06
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.65E+23 -2.10E+23 -2.77E+23 3.848E+23   -128.08    -46.11
+ Side-Strength:            -8.21E+24 -1.31E+25 -1.49E+25 2.147E+25   -122.13    -44.06
+ Basal-Strength:            8.37E+24  1.33E+25  1.52E+25 2.185E+25     57.77     44.09
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.87E+07  2.58E+07 -1.35E+07 3.465E+07     54.09    -22.94
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-159.70E, 39.32N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -3.26E+16  4.80E+16 -1.70E+16 6.041E+16     248.7
+ Side-strength:            -1.93E+18  2.52E+18 -1.14E+18 3.370E+18     244.0
+ Basal-strength:            1.96E+18 -2.56E+18  1.16E+18 3.430E+18      64.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-127.50E,  45.49N).
+ ======================================================================================
+
+ plate #    23 =JZ:      8 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -2.16E+24  9.93E+22  1.08E+24 2.416E+24    177.37     26.59
+ Velocity-Boundary-C.'s    -2.88E+23  6.88E+22  7.79E+22 3.064E+23    166.57     14.72
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -2.45E+24  1.68E+23  1.16E+24 2.713E+24    176.07     25.31
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            2.38E+24 -7.71E+22 -1.25E+24 2.688E+24     -1.86    -27.75
+ Continuum-Link [PLUG]:     2.68E+08 -1.17E+08 -2.68E+08 3.974E+08    -23.63    -42.49
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.38E+24 -7.71E+22 -1.25E+24 2.688E+24     -1.86    -27.75
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      6.90E+22 -9.10E+22  9.22E+22 1.468E+23    -52.82     38.91
+ Side-Strength:             2.38E+24 -7.71E+22 -1.25E+24 2.688E+24     -1.86    -27.75
+ Basal-Strength:           -2.45E+24  1.68E+23  1.16E+24 2.713E+24    176.07     25.31
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            4.50E+07  1.28E+08  9.22E+07 1.644E+08     70.71     34.13
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-111.61E,-32.70N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.90E+16  1.37E+15 -1.29E+16 2.305E+16     131.7
+ Side-strength:            -1.47E+17  2.62E+17 -2.96E+17 4.219E+17     213.6
+ Basal-strength:            1.28E+17 -2.64E+17  3.09E+17 4.258E+17      30.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-110.92E, -33.34N).
+ ======================================================================================
+
+ plate #    24 =KE:     33 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -7.48E+24  5.65E+23  1.22E+25 1.434E+25    175.68     58.46
+ Velocity-Boundary-C.'s     9.27E+22 -1.70E+23 -1.10E+23 2.223E+23    -61.33    -29.64
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -7.39E+24  3.96E+23  1.21E+25 1.419E+25    176.93     58.59
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            1.69E+25  3.72E+24 -2.76E+25 3.256E+25     12.40    -57.82
+ Continuum-Link [PLUG]:    -2.15E+09  8.59E+09 -1.72E+10 1.933E+10    104.04    -62.73
+ -------------------------------------------------------------------------------------
+ Side-Strength:             1.69E+25  3.72E+24 -2.76E+25 3.256E+25     12.40    -57.82
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -9.55E+24 -4.12E+24  1.54E+25 1.862E+25   -156.66     56.05
+ Side-Strength:             1.69E+25  3.72E+24 -2.76E+25 3.256E+25     12.40    -57.82
+ Basal-Strength:           -7.39E+24  3.96E+23  1.21E+25 1.419E+25    176.93     58.59
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            8.67E+06  2.39E+05  1.08E+07 1.387E+07      1.58     51.30
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 178.41E,-31.40N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      2.80E+17 -2.85E+18 -5.87E+17 2.922E+18     103.6
+ Side-strength:            -2.02E+17  5.07E+18  5.62E+17 5.110E+18     277.4
+ Basal-strength:           -7.74E+16 -2.23E+18  2.56E+16 2.228E+18      89.2
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-179.62E, -33.55N).
+ ======================================================================================
+
+ plate #    25 =MA:     27 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               3.84E+24 -3.12E+24  1.57E+25 1.648E+25    -39.13     72.53
+ Velocity-Boundary-C.'s    -1.42E+22 -1.20E+22 -1.04E+22 2.136E+22   -139.76    -29.16
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            3.82E+24 -3.13E+24  1.57E+25 1.647E+25    -39.34     72.53
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -6.80E+24  4.08E+24 -2.43E+25 2.555E+25    149.05    -71.91
+ Continuum-Link [PLUG]:    -4.29E+09 -3.76E+09 -4.29E+09 7.143E+09   -138.81    -36.96
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -6.80E+24  4.08E+24 -2.43E+25 2.555E+25    149.05    -71.91
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      2.98E+24 -9.44E+23  8.57E+24 9.126E+24    -17.60     69.98
+ Side-Strength:            -6.80E+24  4.08E+24 -2.43E+25 2.555E+25    149.05    -71.91
+ Basal-Strength:            3.82E+24 -3.13E+24  1.57E+25 1.647E+25    -39.34     72.53
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -9.51E+06  6.35E+06  1.02E+07 1.532E+07    146.24     41.75
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 130.71E, 17.22N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.02E+18 -9.77E+17  2.46E+17 1.432E+18      79.6
+ Side-strength:             2.95E+18  2.69E+18 -3.74E+17 4.010E+18     264.4
+ Basal-strength:           -1.93E+18 -1.71E+18  1.28E+17 2.585E+18      87.0
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 145.30E,  17.93N).
+ ======================================================================================
+
+ plate #    26 =MN:      4 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               4.13E+23  7.38E+23  7.10E+22 8.484E+23     60.75      4.80
+ Velocity-Boundary-C.'s     9.61E+22  1.58E+23 -7.01E+22 1.977E+23     58.67    -20.76
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            5.09E+23  8.96E+23  9.22E+20 1.030E+24     60.38      0.05
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -4.63E+23 -8.42E+23 -2.15E+23 9.845E+23   -118.82    -12.62
+ Continuum-Link [PLUG]:     6.04E+08  1.21E+09 -2.35E+08 1.371E+09     63.43     -9.87
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -4.63E+23 -8.42E+23 -2.15E+23 9.845E+23   -118.82    -12.62
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -4.61E+22 -5.38E+22  2.14E+23 2.256E+23   -130.59     71.70
+ Side-Strength:            -4.63E+23 -8.42E+23 -2.15E+23 9.845E+23   -118.82    -12.62
+ Basal-Strength:            5.09E+23  8.96E+23  9.22E+20 1.030E+24     60.38      0.05
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.36E+09 -7.45E+08  9.55E+07 1.555E+09    -28.70      3.52
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 150.37E, -3.60N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.61E+16 -2.96E+16 -1.09E+16 3.541E+16     108.0
+ Side-strength:             2.50E+16  2.47E+16 -1.50E+17 1.545E+17     192.6
+ Basal-strength:           -8.89E+15  4.89E+15  1.61E+17 1.617E+17       0.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 150.49E,  -3.55N).
+ ======================================================================================
+
+ plate #    27 =MO:     10 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               3.41E+24  4.97E+24  1.30E+25 1.433E+25     55.53     65.12
+ Velocity-Boundary-C.'s     8.32E+24  1.21E+25  3.24E+25 3.555E+25     55.54     65.56
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            1.17E+25  1.71E+25  4.54E+25 4.988E+25     55.53     65.43
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -1.80E+25 -2.42E+25 -4.66E+25 5.554E+25   -126.64    -57.09
+ Continuum-Link [PLUG]:     6.44E+09  4.29E+09  1.72E+10 1.884E+10     33.69     65.74
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -1.80E+25 -2.42E+25 -4.66E+25 5.554E+25   -126.64    -57.09
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      6.27E+24  7.11E+24  1.26E+24 9.568E+24     48.59      7.55
+ Side-Strength:            -1.80E+25 -2.42E+25 -4.66E+25 5.554E+25   -126.64    -57.09
+ Basal-Strength:            1.17E+25  1.71E+25  4.54E+25 4.988E+25     55.53     65.43
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.20E+08 -6.85E+07  7.16E+07 1.554E+08    -29.80     27.46
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 138.14E, -3.37N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.97E+17 -8.89E+16  1.49E+18 1.502E+18       7.6
+ Side-strength:             5.10E+18  5.28E+18 -4.71E+18 8.718E+18     237.2
+ Basal-strength:           -4.90E+18 -5.19E+18  3.22E+18 7.830E+18      65.6
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 137.94E,  -3.44N).
+ ======================================================================================
+
+ plate #    28 =MS:     18 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -3.25E+24 -3.00E+24  1.51E+24 4.676E+24   -137.31     18.81
+ Velocity-Boundary-C.'s     1.95E+23 -1.56E+23  5.81E+23 6.324E+23    -38.55     66.73
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -3.06E+24 -3.16E+24  2.09E+24 4.866E+24   -134.09     25.42
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.51E+24  4.03E+24  2.90E+24 6.086E+24     48.94     28.51
+ Continuum-Link [PLUG]:     0.00E+00  1.07E+09 -1.18E+10 1.186E+10     90.00    -84.81
+ -------------------------------------------------------------------------------------
+ Side-Strength:             3.51E+24  4.03E+24  2.90E+24 6.086E+24     48.94     28.51
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -4.55E+23 -8.76E+23 -4.99E+24 5.090E+24   -117.47    -78.82
+ Side-Strength:             3.51E+24  4.03E+24  2.90E+24 6.086E+24     48.94     28.51
+ Basal-Strength:           -3.06E+24 -3.16E+24  2.09E+24 4.866E+24   -134.09     25.42
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            8.78E+07 -1.36E+08  4.07E+06 1.619E+08    -57.15      1.44
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 137.33E, -2.97N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      5.38E+17  5.72E+17 -1.49E+17 7.990E+17     259.2
+ Side-strength:            -3.41E+17 -3.06E+17  8.38E+17 9.553E+17      28.5
+ Basal-strength:           -1.96E+17 -2.66E+17 -6.89E+17 7.638E+17     154.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 123.34E,  -1.07N).
+ ======================================================================================
+
+ plate #    29 =NA:   1860 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.47E+26 -2.20E+26 -2.07E+26 3.362E+26    -56.39    -38.06
+ Velocity-Boundary-C.'s    -6.63E+25 -4.74E+25 -6.68E+25 1.054E+26   -144.41    -39.32
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            8.02E+25 -2.68E+26 -2.74E+26 3.915E+26    -73.33    -44.41
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -1.97E+26  2.53E+26  2.70E+26 4.199E+26    127.92     40.08
+ Continuum-Link [PLUG]:     5.46E+25  2.11E+25 -4.09E+24 5.867E+25     21.09     -4.00
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -1.43E+26  2.74E+26  2.66E+26 4.082E+26    117.49     40.71
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      6.26E+25 -6.62E+24  7.74E+24 6.340E+25     -6.04      7.01
+ Side-Strength:            -1.43E+26  2.74E+26  2.66E+26 4.082E+26    117.49     40.71
+ Basal-Strength:            8.02E+25 -2.68E+26 -2.74E+26 3.915E+26    -73.33    -44.41
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            2.73E+05 -4.58E+05 -1.58E+06 1.668E+06    -59.22    -71.36
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-102.34E, 41.75N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.93E+17 -6.73E+18 -7.32E+18 9.952E+18     170.6
+ Side-strength:             5.91E+19  8.26E+18  2.32E+19 6.407E+19      61.0
+ Basal-strength:           -5.93E+19 -1.53E+18 -1.59E+19 6.145E+19     249.7
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-104.07E,  53.48N).
+ ======================================================================================
+
+ plate #    30 =NB:     21 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               2.01E+25  3.03E+25 -3.07E+25 4.763E+25     56.51    -40.20
+ Velocity-Boundary-C.'s     4.67E+25  7.25E+25 -5.40E+25 1.017E+26     57.24    -32.04
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            6.67E+25  1.03E+26 -8.47E+25 1.490E+26     57.02    -34.64
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -6.69E+25 -1.02E+26  8.53E+25 1.491E+26   -123.16     34.89
+ Continuum-Link [PLUG]:    -3.44E+10 -6.87E+10  0.00E+00 7.683E+10   -116.57      0.00
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -6.69E+25 -1.02E+26  8.53E+25 1.491E+26   -123.16     34.89
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.79E+23 -4.49E+23 -6.02E+23 7.721E+23    -68.31    -51.23
+ Side-Strength:            -6.69E+25 -1.02E+26  8.53E+25 1.491E+26   -123.16     34.89
+ Basal-Strength:            6.67E+25  1.03E+26 -8.47E+25 1.490E+26     57.02    -34.64
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.62E+06  5.94E+07 -3.69E+07 6.996E+07     88.44    -31.80
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 165.94E,-25.14N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      5.07E+16  9.49E+16 -5.58E+16 1.212E+17     239.5
+ Side-strength:             3.88E+18 -1.62E+19 -1.64E+19 2.341E+19     140.8
+ Basal-strength:           -3.93E+18  1.61E+19  1.65E+19 2.339E+19     321.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 149.39E,  -2.80N).
+ ======================================================================================
+
+ plate #    31 =ND:     37 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -1.03E+25 -1.33E+25 -4.27E+25 4.595E+25   -127.81    -68.46
+ Velocity-Boundary-C.'s     1.30E+24  1.30E+24  1.01E+25 1.024E+25     44.89     79.66
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -9.04E+24 -1.20E+25 -3.27E+25 3.596E+25   -126.92    -65.27
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            2.37E+25  1.60E+25  4.13E+25 5.020E+25     34.06     55.31
+ Continuum-Link [PLUG]:     2.58E+10  1.07E+10  1.72E+10 3.278E+10     22.62     31.61
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.37E+25  1.60E+25  4.13E+25 5.020E+25     34.06     55.31
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.46E+25 -3.97E+24 -8.61E+24 1.744E+25   -164.82    -29.60
+ Side-Strength:             2.37E+25  1.60E+25  4.13E+25 5.020E+25     34.06     55.31
+ Basal-Strength:           -9.04E+24 -1.20E+25 -3.27E+25 3.596E+25   -126.92    -65.27
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            2.67E+07 -1.09E+08  6.87E+06 1.121E+08    -76.21      3.51
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -86.26E, 19.26N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.48E+18  6.74E+17  2.20E+18 2.737E+18     328.5
+ Side-strength:             6.93E+18 -8.27E+17 -3.65E+18 7.880E+18     119.4
+ Basal-strength:           -5.45E+18  1.52E+17  1.45E+18 5.645E+18     285.8
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -75.49E,   5.94N).
+ ======================================================================================
+
+ plate #    32 =NH:     22 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               7.00E+24  5.36E+24 -1.61E+25 1.834E+25     37.44    -61.28
+ Velocity-Boundary-C.'s     3.63E+23  5.30E+23 -8.07E+23 1.031E+24     55.63    -51.46
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            7.36E+24  5.89E+24 -1.69E+25 1.934E+25     38.66    -60.84
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -7.94E+24 -4.47E+24  1.93E+25 2.132E+25   -150.63     64.72
+ Continuum-Link [PLUG]:     1.07E+09  3.22E+09 -6.44E+09 7.282E+09     71.57    -62.21
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -7.94E+24 -4.47E+24  1.93E+25 2.132E+25   -150.63     64.72
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      5.78E+23 -1.42E+24 -2.39E+24 2.844E+24    -67.85    -57.37
+ Side-Strength:            -7.94E+24 -4.47E+24  1.93E+25 2.132E+25   -150.63     64.72
+ Basal-Strength:            7.36E+24  5.89E+24 -1.69E+25 1.934E+25     38.66    -60.84
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            6.34E+07 -8.96E+06  1.60E+07 6.600E+07     -8.04     13.99
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 168.34E,-19.61N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.46E+17  3.77E+17 -1.88E+17 4.463E+17     243.4
+ Side-strength:            -3.41E+17 -3.21E+18 -8.84E+17 3.347E+18     106.3
+ Basal-strength:            1.95E+17  2.83E+18  1.07E+18 3.035E+18     292.0
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 170.38E, -17.83N).
+ ======================================================================================
+
+ plate #    33 =NI:     12 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.29E+23 -3.22E+24  4.51E+23 3.255E+24    -87.71      7.96
+ Velocity-Boundary-C.'s    -1.88E+23  1.06E+23  6.75E+23 7.085E+23    150.52     72.29
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -5.90E+22 -3.11E+24  1.13E+24 3.313E+24    -91.09     19.87
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            2.29E+23  2.22E+24 -1.55E+24 2.713E+24     84.10    -34.74
+ Continuum-Link [PLUG]:    -1.68E+08  5.37E+08  1.07E+09 1.212E+09    107.35     62.35
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.29E+23  2.22E+24 -1.55E+24 2.713E+24     84.10    -34.74
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.70E+23  8.97E+23  4.20E+23 1.005E+24    100.73     24.72
+ Side-Strength:             2.29E+23  2.22E+24 -1.55E+24 2.713E+24     84.10    -34.74
+ Basal-Strength:           -5.90E+22 -3.11E+24  1.13E+24 3.313E+24    -91.09     19.87
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            7.51E+07  1.73E+06  2.41E+07 7.883E+07      1.32     17.77
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-175.89E,-14.07N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -2.97E+16 -7.03E+16  1.38E+17 1.578E+17      25.5
+ Side-strength:            -1.01E+17  2.44E+17  3.34E+17 4.258E+17     324.0
+ Basal-strength:            1.31E+17 -1.73E+17 -4.72E+17 5.199E+17     159.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-175.80E, -16.91N).
+ ======================================================================================
+
+ plate #    34 =NZ:    390 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               0.00E+00  0.00E+00  0.00E+00 0.000E+00      0.00      0.00
+ Velocity-Boundary-C.'s    -1.16E+25 -2.14E+25  6.54E+25 6.981E+25   -118.51     69.59
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -1.16E+25 -2.14E+25  6.54E+25 6.981E+25   -118.51     69.59
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            7.72E+24  3.30E+25 -9.48E+25 1.007E+26     76.86    -70.30
+ Continuum-Link [PLUG]:    -1.07E+09  0.00E+00  1.72E+10 1.721E+10    180.00     86.42
+ -------------------------------------------------------------------------------------
+ Side-Strength:             7.72E+24  3.30E+25 -9.48E+25 1.007E+26     76.86    -70.30
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      3.91E+24 -1.16E+25  2.93E+25 3.181E+25    -71.45     67.28
+ Side-Strength:             7.72E+24  3.30E+25 -9.48E+25 1.007E+26     76.86    -70.30
+ Basal-Strength:           -1.16E+25 -2.14E+25  6.54E+25 6.981E+25   -118.51     69.59
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -1.11E+05  6.75E+03  7.45E+05 7.533E+05    176.51     81.55
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-102.67E,-19.70N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      4.85E+18 -7.44E+17 -9.41E+17 4.992E+18     101.5
+ Side-strength:            -1.54E+19  3.48E+18 -4.15E+16 1.580E+19     269.8
+ Basal-strength:            1.06E+19 -2.74E+18  9.82E+17 1.096E+19      84.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -92.39E, -19.89N).
+ ======================================================================================
+
+ plate #    35 =OK:     90 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -7.76E+24 -4.03E+25 -3.87E+24 4.118E+25   -100.90     -5.39
+ Velocity-Boundary-C.'s     1.09E+25  4.74E+23  4.30E+24 1.169E+25      2.50     21.61
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            3.10E+24 -3.98E+25  4.37E+23 3.991E+25    -85.55      0.63
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            7.06E+24  7.05E+25 -1.68E+25 7.282E+25     84.28    -13.33
+ Continuum-Link [PLUG]:    -1.09E+25  1.64E+25 -6.81E+24 2.083E+25    123.55    -19.08
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -3.82E+24  8.69E+25 -2.36E+25 9.014E+25     92.52    -15.17
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      7.22E+23 -4.71E+25  2.32E+25 5.251E+25    -89.12     26.16
+ Side-Strength:            -3.82E+24  8.69E+25 -2.36E+25 9.014E+25     92.52    -15.17
+ Basal-Strength:            3.10E+24 -3.98E+25  4.37E+23 3.991E+25    -85.55      0.63
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            2.16E+07 -1.53E+07 -3.06E+07 4.041E+07    -35.28    -49.16
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-175.46E, -7.40N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.24E+18 -3.58E+18 -7.32E+18 8.242E+18     153.6
+ Side-strength:            -2.05E+18  3.58E+18  1.35E+19 1.415E+19     344.7
+ Basal-strength:            8.10E+17 -5.14E+15 -6.21E+18 6.264E+18     179.4
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 149.52E,  51.90N).
+ ======================================================================================
+
+ plate #    36 =ON:     21 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -1.31E+25 -1.88E+25  1.52E+25 2.749E+25   -124.98     33.64
+ Velocity-Boundary-C.'s    -4.95E+24 -7.61E+24  7.69E+24 1.190E+25   -123.02     40.28
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -1.81E+25 -2.64E+25  2.29E+25 3.933E+25   -124.42     35.65
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            2.02E+25  3.06E+25 -2.68E+25 4.544E+25     56.54    -36.10
+ Continuum-Link [PLUG]:    -1.72E+10 -8.59E+09 -1.29E+10 2.313E+10   -153.43    -33.85
+ -------------------------------------------------------------------------------------
+ Side-Strength:             2.02E+25  3.06E+25 -2.68E+25 4.544E+25     56.54    -36.10
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -2.18E+24 -4.27E+24  3.85E+24 6.150E+24   -117.01     38.79
+ Side-Strength:             2.02E+25  3.06E+25 -2.68E+25 4.544E+25     56.54    -36.10
+ Basal-Strength:           -1.81E+25 -2.64E+25  2.29E+25 3.933E+25   -124.42     35.65
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -1.47E+08  1.65E+08  1.27E+08 2.542E+08    131.70     29.90
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 100.57E, 44.60N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -8.94E+17  1.61E+17 -3.27E+17 9.653E+17     118.4
+ Side-strength:             6.32E+18 -1.68E+18  2.85E+18 7.132E+18     304.2
+ Basal-strength:           -5.42E+18  1.52E+18 -2.53E+18 6.173E+18     125.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 127.68E,  27.18N).
+ ======================================================================================
+
+ plate #    37 =PA:   2930 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               3.10E+20 -1.37E+21 -1.53E+21 2.078E+21    -77.28    -47.42
+ Velocity-Boundary-C.'s    -8.10E+25  1.33E+26 -2.02E+26 2.550E+26    121.40    -52.45
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -8.10E+25  1.33E+26 -2.02E+26 2.550E+26    121.40    -52.45
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            9.29E+25 -1.92E+26  3.18E+26 3.825E+26    -64.13     56.18
+ Continuum-Link [PLUG]:     7.08E+23 -8.90E+23 -6.27E+23 1.298E+24    -51.51    -28.86
+ -------------------------------------------------------------------------------------
+ Side-Strength:             9.36E+25 -1.92E+26  3.17E+26 3.826E+26    -64.07     55.99
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.26E+25  5.98E+25 -1.15E+26 1.302E+26    101.90    -62.02
+ Side-Strength:             9.36E+25 -1.92E+26  3.17E+26 3.826E+26    -64.07     55.99
+ Basal-Strength:           -8.10E+25  1.33E+26 -2.02E+26 2.550E+26    121.40    -52.45
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -1.63E+05  2.15E+05 -3.75E+05 4.623E+05    127.20    -54.28
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-115.12E,-22.98N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.87E+19  6.28E+18  5.31E+18 2.043E+19     286.4
+ Side-strength:             5.33E+19 -1.37E+19 -2.41E+19 6.005E+19     115.8
+ Basal-strength:           -3.46E+19  7.44E+18  1.87E+19 4.003E+19     300.6
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-147.60E,  11.97N).
+ ======================================================================================
+
+ plate #    38 =PM:     12 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -3.03E+25 -2.76E+24  1.24E+25 3.285E+25   -174.80     22.21
+ Velocity-Boundary-C.'s    -5.78E+25 -5.81E+24  1.95E+25 6.132E+25   -174.26     18.57
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -8.81E+25 -8.57E+24  3.19E+25 9.412E+25   -174.45     19.84
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            8.94E+25  8.93E+24 -3.14E+25 9.511E+25      5.71    -19.25
+ Continuum-Link [PLUG]:     0.00E+00  3.22E+09  3.01E+10 3.024E+10     90.00     83.88
+ -------------------------------------------------------------------------------------
+ Side-Strength:             8.94E+25  8.93E+24 -3.14E+25 9.511E+25      5.71    -19.25
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.23E+24 -3.60E+23 -5.79E+23 1.403E+24   -163.62    -24.38
+ Side-Strength:             8.94E+25  8.93E+24 -3.14E+25 9.511E+25      5.71    -19.25
+ Basal-Strength:           -8.81E+25 -8.57E+24  3.19E+25 9.412E+25   -174.45     19.84
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -6.01E+07  3.55E+07  1.30E+07 7.099E+07    149.39     10.55
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -79.65E, 13.05N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -9.99E+16  2.75E+16  1.94E+17 2.203E+17     334.9
+ Side-strength:            -4.40E+18 -4.03E+18 -1.37E+19 1.493E+19     199.8
+ Basal-strength:            4.50E+18  4.00E+18  1.35E+19 1.477E+19      20.4
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -81.25E,   8.79N).
+ ======================================================================================
+
+ plate #    39 =PS:    248 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.24E+22 -2.96E+22  1.02E+23 1.071E+23    -67.25     72.56
+ Velocity-Boundary-C.'s     1.99E+25  5.57E+25 -5.59E+25 8.138E+25     70.40    -43.35
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            1.99E+25  5.57E+25 -5.58E+25 8.129E+25     70.38    -43.31
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -2.10E+25 -4.52E+25  3.27E+25 5.960E+25   -114.86     33.23
+ Continuum-Link [PLUG]:    -4.91E+24 -9.19E+24  1.68E+25 1.973E+25   -118.10     58.11
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -2.59E+25 -5.44E+25  4.94E+25 7.793E+25   -115.42     39.35
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      6.00E+24 -1.29E+24  6.34E+24 8.825E+24    -12.17     45.96
+ Side-Strength:            -2.59E+25 -5.44E+25  4.94E+25 7.793E+25   -115.42     39.35
+ Basal-Strength:            1.99E+25  5.57E+25 -5.58E+25 8.129E+25     70.38    -43.31
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -5.17E+06  7.69E+06  1.11E+06 9.337E+06    123.89      6.86
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 121.43E, 33.70N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -8.20E+17 -9.54E+17  5.80E+17 1.385E+18      59.8
+ Side-strength:            -1.02E+19 -1.11E+18 -6.59E+18 1.223E+19     130.3
+ Basal-strength:            1.11E+19  2.07E+18  6.01E+18 1.276E+19     304.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 128.06E,  17.86N).
+ ======================================================================================
+
+ plate #    40 =RI:     12 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               0.00E+00  0.00E+00  0.00E+00 0.000E+00      0.00      0.00
+ Velocity-Boundary-C.'s    -5.88E+24  6.35E+24  1.17E+25 1.451E+25    132.81     53.40
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -5.88E+24  6.35E+24  1.17E+25 1.451E+25    132.81     53.40
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            5.99E+24 -6.56E+24 -1.21E+25 1.504E+25    -47.59    -53.80
+ Continuum-Link [PLUG]:    -2.15E+09  1.07E+09  4.29E+09 4.921E+09    153.43     60.79
+ -------------------------------------------------------------------------------------
+ Side-Strength:             5.99E+24 -6.56E+24 -1.21E+25 1.504E+25    -47.59    -53.80
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.11E+23  2.11E+23  4.87E+23 5.424E+23    117.80     63.90
+ Side-Strength:             5.99E+24 -6.56E+24 -1.21E+25 1.504E+25    -47.59    -53.80
+ Basal-Strength:           -5.88E+24  6.35E+24  1.17E+25 1.451E+25    132.81     53.40
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            2.44E+07  1.17E+08 -2.28E+07 1.217E+08     78.22    -10.79
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-111.97E, 17.56N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      7.76E+16 -2.20E+16  2.73E+16 8.513E+16      70.4
+ Side-strength:            -2.00E+18  3.96E+17 -1.20E+18 2.361E+18     237.8
+ Basal-strength:            1.92E+18 -3.74E+17  1.17E+18 2.278E+18      57.4
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-106.85E,  19.42N).
+ ======================================================================================
+
+ plate #    41 =SA:   1670 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               7.29E+25  1.34E+26 -3.07E+26 3.427E+26     61.52    -63.50
+ Velocity-Boundary-C.'s     3.95E+25  8.38E+25 -1.13E+25 9.330E+25     64.74     -6.95
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            1.12E+26  2.18E+26 -3.18E+26 4.017E+26     62.73    -52.34
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -5.35E+25 -1.88E+26  2.93E+26 3.517E+26   -105.92     56.31
+ Continuum-Link [PLUG]:    -7.06E+25 -5.31E+25  3.40E+25 9.467E+25   -143.03     21.04
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -1.24E+26 -2.41E+26  3.27E+26 4.243E+26   -117.27     50.33
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.17E+25  2.26E+25 -8.59E+24 2.686E+25     62.70    -18.66
+ Side-Strength:            -1.24E+26 -2.41E+26  3.27E+26 4.243E+26   -117.27     50.33
+ Basal-Strength:            1.12E+26  2.18E+26 -3.18E+26 4.017E+26     62.73    -52.34
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.03E+06  3.45E+05 -1.67E+06 1.990E+06     18.55    -56.94
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -27.31E, -0.03N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -6.21E+17 -1.20E+18 -3.99E+18 4.216E+18     198.7
+ Side-strength:             2.35E+19  4.55E+19  4.25E+19 6.661E+19      50.3
+ Basal-strength:           -2.29E+19 -4.43E+19 -3.85E+19 6.306E+19     232.3
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -55.68E, -25.40N).
+ ======================================================================================
+
+ plate #    42 =SB:     17 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -1.96E+25 -2.95E+25  1.79E+25 3.967E+25   -123.57     26.76
+ Velocity-Boundary-C.'s    -1.57E+25 -2.49E+25  7.43E+24 3.034E+25   -122.25     14.18
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -3.53E+25 -5.44E+25  2.53E+25 6.960E+25   -122.97     21.31
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.91E+25  6.02E+25 -2.85E+25 7.723E+25     56.97    -21.66
+ Continuum-Link [PLUG]:    -2.58E+10 -4.29E+10 -2.15E+10 5.450E+10   -120.96    -23.21
+ -------------------------------------------------------------------------------------
+ Side-Strength:             3.91E+25  6.02E+25 -2.85E+25 7.723E+25     56.97    -21.66
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -3.83E+24 -5.78E+24  3.22E+24 7.648E+24   -123.52     24.88
+ Side-Strength:             3.91E+25  6.02E+25 -2.85E+25 7.723E+25     56.97    -21.66
+ Basal-Strength:           -3.53E+25 -5.44E+25  2.53E+25 6.960E+25   -122.97     21.31
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            4.97E+07 -6.78E+07  1.95E+07 8.631E+07    -53.75     13.06
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 149.95E, -7.45N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.33E+17 -5.11E+17 -1.08E+18 1.200E+18     154.9
+ Side-strength:             9.98E+17  4.64E+18  1.12E+19 1.212E+19     338.1
+ Basal-strength:           -8.65E+17 -4.13E+18 -1.01E+19 1.092E+19     158.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 149.32E,  -4.97N).
+ ======================================================================================
+
+ plate #    43 =SC:     58 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -4.32E+25 -5.49E+25 -2.18E+23 6.990E+25   -128.21     -0.18
+ Velocity-Boundary-C.'s    -6.86E+24 -4.56E+25  2.17E+25 5.094E+25    -98.56     25.21
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -5.01E+25 -1.00E+26  2.15E+25 1.143E+26   -116.49     10.83
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            5.63E+25  1.01E+26 -1.83E+25 1.173E+26     60.93     -8.95
+ Continuum-Link [PLUG]:    -8.59E+09  1.03E+11 -3.44E+10 1.090E+11     94.76    -18.38
+ -------------------------------------------------------------------------------------
+ Side-Strength:             5.63E+25  1.01E+26 -1.83E+25 1.173E+26     60.93     -8.95
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -6.21E+24 -7.71E+23 -3.22E+24 7.039E+24   -172.93    -27.22
+ Side-Strength:             5.63E+25  1.01E+26 -1.83E+25 1.173E+26     60.93     -8.95
+ Basal-Strength:           -5.01E+25 -1.00E+26  2.15E+25 1.143E+26   -116.49     10.83
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.07E+07 -2.78E+07 -3.56E+07 4.641E+07    -68.98    -50.01
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -40.91E,-52.46N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.06E+17 -1.01E+18  4.45E+17 1.105E+18     311.3
+ Side-strength:            -1.37E+19  5.69E+18 -1.08E+19 1.841E+19     194.8
+ Basal-strength:            1.39E+19 -4.68E+18  1.04E+19 1.794E+19      18.0
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -51.21E, -57.35N).
+ ======================================================================================
+
+ plate #    44 =SL:      6 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -3.98E+24 -2.53E+24  1.83E+23 4.715E+24   -147.54      2.23
+ Velocity-Boundary-C.'s    -2.73E+24 -5.52E+23 -4.09E+23 2.812E+24   -168.55     -8.35
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -6.70E+24 -3.08E+24 -2.25E+23 7.380E+24   -155.31     -1.75
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            8.74E+24  2.80E+24  9.05E+23 9.220E+24     17.80      5.63
+ Continuum-Link [PLUG]:     0.00E+00  5.37E+08  0.00E+00 5.369E+08     90.00      0.00
+ -------------------------------------------------------------------------------------
+ Side-Strength:             8.74E+24  2.80E+24  9.05E+23 9.220E+24     17.80      5.63
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -2.03E+24  2.77E+23 -6.80E+23 2.162E+24    172.25    -18.32
+ Side-Strength:             8.74E+24  2.80E+24  9.05E+23 9.220E+24     17.80      5.63
+ Basal-Strength:           -6.70E+24 -3.08E+24 -2.25E+23 7.380E+24   -155.31     -1.75
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -2.54E+08  3.92E+08  8.70E+08 9.876E+08    122.98     61.78
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -62.24E,-60.31N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -8.45E+16 -3.02E+17  1.30E+17 3.394E+17     320.6
+ Side-strength:            -3.20E+17  1.22E+18 -7.03E+17 1.447E+18     168.6
+ Basal-strength:            4.05E+17 -9.22E+17  5.73E+17 1.158E+18     356.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -59.13E, -61.92N).
+ ======================================================================================
+
+ plate #    45 =SO:    441 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -3.51E+25 -4.63E+25 -6.06E+25 8.393E+25   -127.22    -46.20
+ Velocity-Boundary-C.'s    -1.50E+25 -1.13E+24 -1.87E+25 2.399E+25   -175.67    -51.21
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -5.01E+25 -4.74E+25 -7.93E+25 1.051E+26   -136.60    -48.97
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.45E+25  8.32E+24  1.13E+25 3.725E+25     13.56     17.68
+ Continuum-Link [PLUG]:     2.79E+25  3.26E+25  5.49E+25 6.966E+25     49.44     51.97
+ -------------------------------------------------------------------------------------
+ Side-Strength:             6.24E+25  4.09E+25  6.62E+25 9.975E+25     33.26     41.57
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -1.23E+25  6.46E+24  1.31E+25 1.909E+25    152.27     43.32
+ Side-Strength:             6.24E+25  4.09E+25  6.62E+25 9.975E+25     33.26     41.57
+ Basal-Strength:           -5.01E+25 -4.74E+25 -7.93E+25 1.051E+26   -136.60    -48.97
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -3.40E+06 -3.79E+06  3.21E+05 5.103E+06   -131.87      3.61
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (  93.80E,-29.01N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -2.29E+18 -1.05E+18 -1.62E+18 2.996E+18     128.3
+ Side-strength:            -1.22E+19  4.15E+18  8.92E+18 1.566E+19      49.3
+ Basal-strength:            1.45E+19 -3.09E+18 -7.30E+18 1.649E+19     239.6
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (  48.22E, -14.19N).
+ ======================================================================================
+
+ plate #    46 =SS:      9 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               0.00E+00  0.00E+00  0.00E+00 0.000E+00      0.00      0.00
+ Velocity-Boundary-C.'s    -3.70E+24 -1.38E+25 -1.68E+25 2.205E+25   -105.01    -49.61
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -3.70E+24 -1.38E+25 -1.68E+25 2.205E+25   -105.01    -49.61
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            1.14E+24  8.81E+24  1.65E+25 1.871E+25     82.61     61.65
+ Continuum-Link [PLUG]:     5.37E+09  1.40E+10  0.00E+00 1.496E+10     68.96      0.00
+ -------------------------------------------------------------------------------------
+ Side-Strength:             1.14E+24  8.81E+24  1.65E+25 1.871E+25     82.61     61.65
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      2.56E+24  4.99E+24  3.26E+23 5.620E+24     62.86      3.33
+ Side-Strength:             1.14E+24  8.81E+24  1.65E+25 1.871E+25     82.61     61.65
+ Basal-Strength:           -3.70E+24 -1.38E+25 -1.68E+25 2.205E+25   -105.01    -49.61
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            1.40E+09 -7.48E+08  1.83E+08 1.598E+09    -28.10      6.58
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 152.24E,-10.63N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.68E+17  2.96E+16  8.65E+17 8.820E+17       3.4
+ Side-strength:            -1.44E+18 -2.21E+18  1.28E+18 2.937E+18      63.6
+ Basal-strength:            1.61E+18  2.19E+18 -2.15E+18 3.461E+18     230.8
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 152.11E,  -7.29N).
+ ======================================================================================
+
+ plate #    47 =SU:    599 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -3.79E+25 -6.43E+25  2.53E+26 2.636E+26   -120.50     73.55
+ Velocity-Boundary-C.'s    -5.06E+24  1.30E+24 -3.27E+24 6.168E+24    165.60    -32.05
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -4.29E+25 -6.30E+25  2.50E+26 2.609E+26   -124.28     73.01
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            1.26E+26  8.12E+25 -2.24E+26 2.693E+26     32.85    -56.22
+ Continuum-Link [PLUG]:    -4.22E+25 -5.71E+23 -3.90E+25 5.748E+25   -179.23    -42.71
+ -------------------------------------------------------------------------------------
+ Side-Strength:             8.35E+25  8.06E+25 -2.63E+26 2.873E+26     43.99    -66.17
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -4.06E+25 -1.76E+25  1.33E+25 4.620E+25   -156.53     16.74
+ Side-Strength:             8.35E+25  8.06E+25 -2.63E+26 2.873E+26     43.99    -66.17
+ Basal-Strength:           -4.29E+25 -6.30E+25  2.50E+26 2.609E+26   -124.28     73.01
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            3.22E+06 -1.15E+07  3.72E+06 1.247E+07    -74.29     17.35
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 110.43E, 10.01N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -2.41E+18  3.90E+17 -6.83E+18 7.252E+18     163.0
+ Side-strength:             4.03E+19  1.19E+19  1.64E+19 4.510E+19     291.7
+ Basal-strength:           -3.79E+19 -1.23E+19 -9.62E+18 4.095E+19     103.8
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 119.63E,   8.40N).
+ ======================================================================================
+
+ plate #    48 =SW:     10 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               9.86E+24 -2.27E+24  6.18E+24 1.186E+25    -12.97     31.43
+ Velocity-Boundary-C.'s    -1.29E+23 -1.15E+23 -8.98E+22 1.943E+23   -138.27    -27.53
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            9.73E+24 -2.39E+24  6.09E+24 1.173E+25    -13.78     31.30
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -1.06E+25  4.85E+24 -7.24E+24 1.374E+25    155.47    -31.81
+ Continuum-Link [PLUG]:     4.29E+09  0.00E+00  1.07E+09 4.427E+09      0.00     14.04
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -1.06E+25  4.85E+24 -7.24E+24 1.374E+25    155.47    -31.81
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      8.91E+23 -2.46E+24  1.15E+24 2.860E+24    -70.10     23.70
+ Side-Strength:            -1.06E+25  4.85E+24 -7.24E+24 1.374E+25    155.47    -31.81
+ Basal-Strength:            9.73E+24 -2.39E+24  6.09E+24 1.173E+25    -13.78     31.30
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            2.53E+07 -1.08E+07 -2.48E+07 3.703E+07    -23.12    -42.02
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( -25.14E,-58.19N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      3.69E+17  2.05E+17  1.53E+17 4.489E+17      49.7
+ Side-strength:            -9.01E+17 -1.96E+18  1.02E+16 2.157E+18     270.5
+ Basal-strength:            5.32E+17  1.75E+18 -1.63E+17 1.841E+18      99.7
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( -27.46E, -57.82N).
+ ======================================================================================
+
+ plate #    49 =TI:     19 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               1.57E+25  3.06E+24 -4.26E+25 4.550E+25     11.06    -69.45
+ Velocity-Boundary-C.'s     3.75E+24 -1.77E+24 -2.11E+25 2.153E+25    -25.27    -78.90
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            1.94E+25  1.29E+24 -6.37E+25 6.664E+25      3.81    -73.01
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -2.13E+25 -2.64E+24  6.39E+25 6.742E+25   -172.91     71.48
+ Continuum-Link [PLUG]:    -2.15E+10 -7.52E+09 -4.29E+10 4.860E+10   -160.71    -62.09
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -2.13E+25 -2.64E+24  6.39E+25 6.742E+25   -172.91     71.48
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      1.83E+24  1.35E+24 -2.04E+23 2.279E+24     36.40     -5.13
+ Side-Strength:            -2.13E+25 -2.64E+24  6.39E+25 6.742E+25   -172.91     71.48
+ Basal-Strength:            1.94E+25  1.29E+24 -6.37E+25 6.664E+25      3.81    -73.01
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            5.39E+07 -6.23E+07 -1.61E+07 8.399E+07    -49.13    -11.02
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 127.27E, -9.56N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -9.99E+15  6.67E+16  3.51E+17 3.576E+17     354.8
+ Side-strength:            -7.81E+18 -6.55E+18 -2.87E+18 1.058E+19     105.9
+ Basal-strength:            7.82E+18  6.48E+18  2.51E+18 1.046E+19     284.1
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 125.91E,  -8.81N).
+ ======================================================================================
+
+ plate #    50 =TO:     18 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -1.48E+24  4.46E+23  7.37E+24 7.531E+24    163.27     78.13
+ Velocity-Boundary-C.'s     1.21E+24 -2.97E+24 -2.86E+24 4.301E+24    -67.80    -41.74
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -2.71E+23 -2.53E+24  4.51E+24 5.173E+24    -96.13     60.60
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.20E+24  6.76E+24 -1.33E+25 1.527E+25     64.64    -60.68
+ Continuum-Link [PLUG]:    -1.61E+10 -2.15E+10  5.58E+10 6.195E+10   -126.87     64.32
+ -------------------------------------------------------------------------------------
+ Side-Strength:             3.20E+24  6.76E+24 -1.33E+25 1.527E+25     64.64    -60.68
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -2.93E+24 -4.23E+24  8.81E+24 1.020E+25   -124.71     59.69
+ Side-Strength:             3.20E+24  6.76E+24 -1.33E+25 1.527E+25     64.64    -60.68
+ Basal-Strength:           -2.71E+23 -2.53E+24  4.51E+24 5.173E+24    -96.13     60.60
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            2.54E+08  2.31E+07  9.36E+07 2.719E+08      5.18     20.13
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: (-106.28E,-29.01N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:      1.48E+18 -5.62E+17  2.23E+17 1.601E+18      80.8
+ Side-strength:            -2.27E+18  7.56E+17 -1.62E+17 2.397E+18     265.6
+ Basal-strength:            7.86E+17 -1.94E+17 -6.14E+16 8.120E+17      95.0
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: (-174.51E, -19.32N).
+ ======================================================================================
+
+ plate #    51 =WL:     22 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:               9.07E+24  1.65E+25 -2.04E+25 2.780E+25     61.20    -47.35
+ Velocity-Boundary-C.'s     1.05E+25  2.19E+25 -1.05E+25 2.643E+25     64.37    -23.40
+ -------------------------------------------------------------------------------------
+ Basal-Strength:            1.96E+25  3.84E+25 -3.09E+25 5.303E+25     62.98    -35.69
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:           -2.41E+25 -4.61E+25  2.82E+25 5.913E+25   -117.61     28.44
+ Continuum-Link [PLUG]:     0.00E+00  8.59E+09 -2.58E+10 2.716E+10     90.00    -71.57
+ -------------------------------------------------------------------------------------
+ Side-Strength:            -2.41E+25 -4.61E+25  2.82E+25 5.913E+25   -117.61     28.44
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:      4.53E+24  7.70E+24  2.78E+24 9.360E+24     59.51     17.27
+ Side-Strength:            -2.41E+25 -4.61E+25  2.82E+25 5.913E+25   -117.61     28.44
+ Basal-Strength:            1.96E+25  3.84E+25 -3.09E+25 5.303E+25     62.98    -35.69
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:           -2.77E+08  2.00E+08 -5.02E+07 3.458E+08    144.15     -8.34
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 150.56E,  3.37N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -1.43E+17 -4.21E+17  1.40E+18 1.469E+18      17.3
+ Side-strength:            -2.59E+18 -3.62E+18 -8.14E+18 9.282E+18     151.5
+ Basal-strength:            2.74E+18  4.04E+18  6.74E+18 8.324E+18     324.2
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 147.26E,  -6.57N).
+ ======================================================================================
+
+ plate #    52 =YA:     56 nodes.
+
+ Torques on plate bottoms:   X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Mantle-Drag:              -4.87E+25  8.93E+24 -5.54E+25 7.430E+25    169.60    -48.25
+ Velocity-Boundary-C.'s     4.45E+24 -3.90E+23 -7.13E+23 4.520E+24     -5.01     -9.08
+ -------------------------------------------------------------------------------------
+ Basal-Strength:           -4.42E+25  8.54E+24 -5.61E+25 7.198E+25    169.07    -51.27
+
+ Torques on plate sides:     X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Fault-Strength:            3.25E+24  4.88E+24 -6.09E+24 8.459E+24     56.32    -46.09
+ Continuum-Link [PLUG]:     4.33E+25 -1.06E+25  5.96E+25 7.442E+25    -13.71     53.24
+ -------------------------------------------------------------------------------------
+ Side-Strength:             4.65E+25 -5.67E+24  5.35E+25 7.114E+25     -6.95     48.79
+
+ Kind of torque:             X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Lithostatic-Pressure:     -2.31E+24 -2.87E+24  2.63E+24 4.525E+24   -128.82     35.48
+ Side-Strength:             4.65E+25 -5.67E+24  5.35E+25 7.114E+25     -6.95     48.79
+ Basal-Strength:           -4.42E+25  8.54E+24 -5.61E+25 7.198E+25    169.07    -51.27
+
+ Traction pole vector:       X=0N,0E  Y=0N,90E     Z=90N Magnitude Longitude  Latitude
+ ------------------------- --------- --------- --------- --------- --------- ---------
+ Basal-strength:            2.27E+06 -1.13E+07 -1.20E+07 1.663E+07    -78.63    -46.06
+
+ Suggested viewpoint for orthographic projection of torques on this plate is: ( 119.44E, 27.45N)
+ from which direction all 3 torque vectors will be in the plane of the figure.
+
+ Equivalent horizontal forces at this point:
+ Kind of force:              X=0N,0E  Y=0N,90E     Z=90N Magnitude   Azimuth
+ ------------------------- --------- --------- --------- --------- ---------
+ Lithostatic pressure:     -5.26E+17 -1.26E+16 -4.77E+17 7.102E+17     139.2
+ Side-strength:            -6.90E+18 -7.03E+18  5.26E+18 1.117E+19      58.0
+ Basal-strength:            7.43E+18  7.04E+18 -4.78E+18 1.130E+19     241.5
+
+ and this cluster of forces should be connected by a leader line
+ to the plate center at approximately: ( 116.71E,  28.30N).
+ ======================================================================================

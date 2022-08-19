@@ -1,0 +1,211 @@
+ ==============================================================
+ I               Output from program Shells,                    I
+ I   a spherical-Earth, thin-shell program for computing time-  I
+ I     averaged (non-elastic) neotectonic deformation of plates I
+ I     with realistic frictional/dislocation-creep rheology.    I
+ I   Distinct thicknesses and thermal and mechanical            I
+ I     properties are read for the crust and mantle layers      I
+ I     of the lithosphere.                                      I
+ I   Faults may be included, with specified dip and friction.   I
+ I   Also, different elements *may* have different rheologies.  I
+ I   (*This is the primary new feature in version 5.0+.)        I
+ I   The velocity below the base of the model may be fixed,     I
+ I     (to represent subduction and other convection),          I
+ I     or shear traction on the base of the lithosphere may     I
+ I     be set to zero, or basal shear traction may be adjusted  I
+ I     (in a series of runs) to obtain desired plate velocities.I
+ I                           by                                 I
+ I              Peter Bird & Xianghong Kong                     I
+ I    Department of Earth, Planetary, and Space Sciences        I
+ I                University of California                      I
+ I                Los Angeles, CA 90095-1567                    I
+ I      Peter Bird's version 5.0* of 29 January 2018            I
+ ================================================================
+-----------------------------------------------------------
+ Run began on 2022. 8.19 at 18:23: 1
+-----------------------------------------------------------
+
+
+ Iteration history:
+                                                               Relative
+                                          Corre-     Maximum       mean
+                                 Relative lation  vertically vertically
+                         Maximum     mean   with  integrated integrated
+ Iter-           RMS    velocity velocity   last      stress     stress
+ ation      velocity      change   change change       error      error
+
+     1  1.133638E-09  4.2959E-09 1.000000   ----  1.4362E+16   0.985682
+     2  1.121805E-09  1.9762E-09 0.277067  -0.29  7.4405E+13   0.680930
+     3  1.165875E-09  7.7988E-10 0.107372   0.84  3.8248E+13   0.485403
+     4  1.196127E-09  7.3642E-10 0.054669   0.96  9.9895E+13   0.334983
+     5  1.214252E-09  7.0033E-10 0.033010   0.95  2.0429E+13   0.243150
+     6  1.225669E-09  5.7075E-10 0.022238   0.99  1.3907E+13   0.179323
+     7  1.232963E-09  4.8622E-10 0.015669   0.99  1.4271E+13   0.131836
+     8  1.237699E-09  3.5980E-10 0.011320   0.99  1.0678E+13   0.096835
+     9  1.240675E-09  2.8779E-10 0.008143   1.00  8.4048E+12   0.073501
+    10  1.242598E-09  2.8230E-10 0.006049   1.00  8.7094E+12   0.058421
+    11  1.243834E-09  2.4252E-10 0.004546   1.00
+ CONVERGED !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-----------------------------------------------------------
+ Run ended on 2022. 8.19 at 18:24: 5
+-----------------------------------------------------------
+ ==============================================================
+ I               Output from program Shells,                    I
+ I   a spherical-Earth, thin-shell program for computing time-  I
+ I     averaged (non-elastic) neotectonic deformation of plates I
+ I     with realistic frictional/dislocation-creep rheology.    I
+ I   Distinct thicknesses and thermal and mechanical            I
+ I     properties are read for the crust and mantle layers      I
+ I     of the lithosphere.                                      I
+ I   Faults may be included, with specified dip and friction.   I
+ I   Also, different elements *may* have different rheologies.  I
+ I   (*This is the primary new feature in version 5.0+.)        I
+ I   The velocity below the base of the model may be fixed,     I
+ I     (to represent subduction and other convection),          I
+ I     or shear traction on the base of the lithosphere may     I
+ I     be set to zero, or basal shear traction may be adjusted  I
+ I     (in a series of runs) to obtain desired plate velocities.I
+ I                           by                                 I
+ I              Peter Bird & Xianghong Kong                     I
+ I    Department of Earth, Planetary, and Space Sciences        I
+ I                University of California                      I
+ I                Los Angeles, CA 90095-1567                    I
+ I      Peter Bird's version 5.0* of 29 January 2018            I
+ ================================================================
+-----------------------------------------------------------
+ Run began on 2022. 8.19 at 18:24: 5
+-----------------------------------------------------------
+
+
+ Iteration history:
+                                                               Relative
+                                          Corre-     Maximum       mean
+                                 Relative lation  vertically vertically
+                         Maximum     mean   with  integrated integrated
+ Iter-           RMS    velocity velocity   last      stress     stress
+ ation      velocity      change   change change       error      error
+
+     1  1.133489E-09  4.2959E-09 1.000000   ----  1.4361E+16   0.985676
+     2  1.391285E-09  2.2163E-09 0.397823   0.35  7.0713E+13   0.844286
+     3  1.450852E-09  1.5307E-09 0.098180   0.82  3.7584E+13   0.609844
+     4  1.463538E-09  1.1894E-09 0.033486   0.86  3.8906E+13   0.326196
+     5  1.470513E-09  1.0656E-09 0.019606   0.95  2.5990E+13   0.201864
+     6  1.474874E-09  7.8138E-10 0.013822   0.98  1.4197E+13   0.140005
+     7  1.477545E-09  1.9330E-10 0.010469   0.97  2.1840E+13   0.101503
+     8  1.479524E-09  1.5878E-10 0.008253   0.99  1.1127E+13   0.076041
+     9  1.481110E-09  1.5731E-10 0.006543   1.00  1.0003E+13   0.059017
+    10  1.482387E-09  1.5998E-10 0.005251   1.00  1.0296E+13   0.046486
+    11  1.483465E-09  1.5242E-10 0.004303   1.00
+ CONVERGED !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-----------------------------------------------------------
+ Run ended on 2022. 8.19 at 18:25: 6
+-----------------------------------------------------------
+ ==============================================================
+ I               Output from program Shells,                    I
+ I   a spherical-Earth, thin-shell program for computing time-  I
+ I     averaged (non-elastic) neotectonic deformation of plates I
+ I     with realistic frictional/dislocation-creep rheology.    I
+ I   Distinct thicknesses and thermal and mechanical            I
+ I     properties are read for the crust and mantle layers      I
+ I     of the lithosphere.                                      I
+ I   Faults may be included, with specified dip and friction.   I
+ I   Also, different elements *may* have different rheologies.  I
+ I   (*This is the primary new feature in version 5.0+.)        I
+ I   The velocity below the base of the model may be fixed,     I
+ I     (to represent subduction and other convection),          I
+ I     or shear traction on the base of the lithosphere may     I
+ I     be set to zero, or basal shear traction may be adjusted  I
+ I     (in a series of runs) to obtain desired plate velocities.I
+ I                           by                                 I
+ I              Peter Bird & Xianghong Kong                     I
+ I    Department of Earth, Planetary, and Space Sciences        I
+ I                University of California                      I
+ I                Los Angeles, CA 90095-1567                    I
+ I      Peter Bird's version 5.0* of 29 January 2018            I
+ ================================================================
+-----------------------------------------------------------
+ Run began on 2022. 8.19 at 18:25: 6
+-----------------------------------------------------------
+
+
+ Iteration history:
+                                                               Relative
+                                          Corre-     Maximum       mean
+                                 Relative lation  vertically vertically
+                         Maximum     mean   with  integrated integrated
+ Iter-           RMS    velocity velocity   last      stress     stress
+ ation      velocity      change   change change       error      error
+
+     1  1.133572E-09  4.2959E-09 1.000000   ----  1.4361E+16   0.985685
+     2  1.399050E-09  2.2184E-09 0.402037   0.36  7.0823E+13   0.844083
+     3  1.460363E-09  1.4983E-09 0.102196   0.82  4.1173E+13   0.618541
+     4  1.475191E-09  1.2253E-09 0.033237   0.88  3.4899E+13   0.335897
+     5  1.484254E-09  1.0928E-09 0.020245   0.94  1.7450E+14   0.208652
+     6  1.490865E-09  7.4766E-10 0.015036   0.95  4.0647E+13   0.142291
+     7  1.495431E-09  4.1914E-10 0.011958   0.97  1.7915E+13   0.101802
+     8  1.499205E-09  4.1044E-10 0.010014   0.99  1.0832E+13   0.076561
+     9  1.502752E-09  3.9453E-10 0.008608   1.00  9.9360E+12   0.059058
+    10  1.506229E-09  3.6099E-10 0.007243   1.00  1.0152E+13   0.046603
+    11  1.509508E-09  3.0902E-10 0.005953   1.00  8.6172E+12   0.037518
+    12  1.512426E-09  2.4387E-10 0.004886   1.00
+ CONVERGED !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-----------------------------------------------------------
+ Run ended on 2022. 8.19 at 18:26:18
+-----------------------------------------------------------
+ ==============================================================
+ I               Output from program Shells,                    I
+ I   a spherical-Earth, thin-shell program for computing time-  I
+ I     averaged (non-elastic) neotectonic deformation of plates I
+ I     with realistic frictional/dislocation-creep rheology.    I
+ I   Distinct thicknesses and thermal and mechanical            I
+ I     properties are read for the crust and mantle layers      I
+ I     of the lithosphere.                                      I
+ I   Faults may be included, with specified dip and friction.   I
+ I   Also, different elements *may* have different rheologies.  I
+ I   (*This is the primary new feature in version 5.0+.)        I
+ I   The velocity below the base of the model may be fixed,     I
+ I     (to represent subduction and other convection),          I
+ I     or shear traction on the base of the lithosphere may     I
+ I     be set to zero, or basal shear traction may be adjusted  I
+ I     (in a series of runs) to obtain desired plate velocities.I
+ I                           by                                 I
+ I              Peter Bird & Xianghong Kong                     I
+ I    Department of Earth, Planetary, and Space Sciences        I
+ I                University of California                      I
+ I                Los Angeles, CA 90095-1567                    I
+ I      Peter Bird's version 5.0* of 29 January 2018            I
+ ================================================================
+-----------------------------------------------------------
+ Run began on 2022. 8.19 at 18:26:18
+-----------------------------------------------------------
+
+
+ Iteration history:
+                                                               Relative
+                                          Corre-     Maximum       mean
+                                 Relative lation  vertically vertically
+                         Maximum     mean   with  integrated integrated
+ Iter-           RMS    velocity velocity   last      stress     stress
+ ation      velocity      change   change change       error      error
+
+     1  1.286833E-09  3.3225E-09 1.000000   ----  1.0840E+16   0.979966
+     2  1.374097E-09  2.0839E-09 0.526087  -0.17  8.9550E+13   0.788913
+     3  1.433721E-09  1.0275E-09 0.204085   0.89  3.9389E+13   0.612009
+     4  1.454234E-09  4.4878E-10 0.088340   0.94  3.7953E+13   0.355418
+     5  1.470090E-09  6.9630E-10 0.056228   0.98  2.3107E+13   0.227470
+     6  1.482111E-09  8.3234E-10 0.039275   0.99  1.9269E+13   0.162807
+     7  1.491791E-09  7.6501E-10 0.029058   0.99  1.3482E+13   0.122066
+     8  1.500923E-09  3.9291E-10 0.023601   1.00  1.2951E+13   0.092968
+     9  1.509673E-09  3.3792E-10 0.019387   1.00  1.3323E+13   0.072952
+    10  1.518006E-09  3.7236E-10 0.016076   1.00  9.7912E+12   0.058782
+    11  1.525795E-09  3.8224E-10 0.013385   1.00  9.8315E+12   0.047340
+    12  1.532905E-09  3.6686E-10 0.011106   1.00  8.6230E+12   0.038876
+    13  1.539306E-09  3.3680E-10 0.009298   1.00  8.4701E+12   0.032146
+    14  1.544980E-09  2.9491E-10 0.007796   1.00  9.2585E+12   0.026590
+    15  1.550024E-09  2.6715E-10 0.006552   1.00  5.7291E+12   0.022311
+    16  1.554389E-09  2.4630E-10 0.005436   1.00  6.4738E+12   0.019048
+    17  1.558303E-09  2.2157E-10 0.004662   1.00
+ CONVERGED !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-----------------------------------------------------------
+ Run ended on 2022. 8.19 at 18:27:52
+-----------------------------------------------------------
