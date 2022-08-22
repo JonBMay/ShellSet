@@ -1,7 +1,4 @@
 # Makefile for ShellSet
-# This makefile buidls versions of ShellSet V1.0
-	# @$(FC) -diag-disable 10145 $(INCL) $(CMPLFLAGS) -c $^ -o $(OBJDIR)$@ ||:
-
 
 # ----- Macros -----
 # Compilers
