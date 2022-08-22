@@ -15,7 +15,6 @@ MKLFLAGS = -qmkl=parallel
 
 # Paths for prerequisites
 vpath %.f90 src
-vpath %.mod lib
 vpath %.o lib
 vpath %.DB.o lib_DB
 vpath %.OPT.o lib_OPT
