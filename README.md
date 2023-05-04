@@ -56,25 +56,25 @@ ShellSetScatter.py -> Scatter plotter for ShellSet output (1D, 2D & 3D)
 
 
 ## Outline INPUT files:
-age_1p5.grd -> Seafloor ages
-aggregated_offset_rates.dig -> Long-term fault heave and/or throw rates
-Baum887.dig -> [Baumgardner, J.R.](https://digital.library.unt.edu/ark:/67531/metadc1108970/) Figure 7A-F
-CRUST2.grd -> Crustal thickness
-delta_ts.grd -> Travel-time anomaly (s) for vertical S-waves traveling through upper mantle
-Earth5R.feg -> Finite element grid file
-Earth5R-type4A.bcs -> Boundary conditions (no plate-interior VBCs)
-Earth5R-type4AplusA.bcs -> Boundary conditions
-ETOPO20.grd -> 20-minute gridded global relief data
-Fouch_2004_SKS_splitting-selected.dat -> Upper-mantle anisotropy data as fast-polarization azimuths from SKS splitting with SKS splitting times in s
-GCMT_shallow_m5p7_1977-2017.eqc -> Seismic catalog
-GPS2006_selected_subset.gps -> Geodetic benchmark positions and relative horizontal velocities
-GridInput.in -> Information related to the grid search option
-HOC79ii.dig -> [Hager and O'Connell (1979)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JB084iB03p01031?casa_token=Oc-Qr2482YoAAAAA:9VsVcCBfkEIdokY1WOJURg2VK2BqSRHg-HbmRKCWDxzeW94KnzWajcN-jMI1Yps6H_-aL9QbPAzqFw) Model II. 
-iEarth5-049.in -> Parameter input file
-InputFiles.in -> Names of input files required for ShellSet
-ListInput.in -> List of models to be run
-magnetic_PB2002.dat -> Seafloor spreading (full) rates at mid-ocean ridges
-PB2002_boundaries.dig -> Digitized plate boundaries, with identification of the polarity of any subduction zones
-PB2002_plates.dig -> Digitized plate outlines
-robust_interpolated_stress_for_OrbScore2.dat -> Most-compressive horizontal principal stress azimuths
-UpVar.in -> List of variables to be updated between the 1st & 2nd iterations of Shells
+age_1p5.grd -> Seafloor ages  
+aggregated_offset_rates.dig -> Long-term fault heave and/or throw rates  
+Baum887.dig -> [Baumgardner, J.R.](https://digital.library.unt.edu/ark:/67531/metadc1108970/) Figure 7A-F  
+CRUST2.grd -> Crustal thickness  
+delta_ts.grd -> Travel-time anomaly (s) for vertical S-waves traveling through upper mantle  
+Earth5R.feg -> Finite element grid file  
+Earth5R-type4A.bcs -> Boundary conditions (no plate-interior VBCs)  
+Earth5R-type4AplusA.bcs -> Boundary conditions  
+ETOPO20.grd -> 20-minute gridded global relief data  
+Fouch_2004_SKS_splitting-selected.dat -> Upper-mantle anisotropy data as fast-polarization azimuths from SKS splitting with SKS splitting times in s  
+GCMT_shallow_m5p7_1977-2017.eqc -> Seismic catalog  
+GPS2006_selected_subset.gps -> Geodetic benchmark positions and relative horizontal velocities  
+GridInput.in -> Information related to the grid search option  
+HOC79ii.dig -> [Hager and O'Connell (1979)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JB084iB03p01031?casa_token=Oc-Qr2482YoAAAAA:9VsVcCBfkEIdokY1WOJURg2VK2BqSRHg-HbmRKCWDxzeW94KnzWajcN-jMI1Yps6H_-aL9QbPAzqFw) Model II.   
+iEarth5-049.in -> Parameter input file  
+InputFiles.in -> Names of input files required for ShellSet  
+ListInput.in -> List of models to be run  
+magnetic_PB2002.dat -> Seafloor spreading (full) rates at mid-ocean ridges  
+PB2002_boundaries.dig -> Digitized plate boundaries, with identification of the polarity of any subduction zones  
+PB2002_plates.dig -> Digitized plate outlines  
+robust_interpolated_stress_for_OrbScore2.dat -> Most-compressive horizontal principal stress azimuths  
+UpVar.in -> List of variables to be updated between the 1st & 2nd iterations of Shells  
