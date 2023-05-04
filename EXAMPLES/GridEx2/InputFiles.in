@@ -1,0 +1,41 @@
+All:
+iEarth5-049.in 	 Parameter input file
+Earth5R.feg 	 Grid input file
+X 	 	 	     non-default Lithospheric Rheologies
+------------------------------------------------------------------------------------------
+
+OrbData:
+ETOPO20.grd 	 	 elevation/topography/bathymetry
+age_1p5.grd 	 	 age of seafloor
+CRUST2.grd 	 	 	 thickness of crust
+delta_ts.grd 	 	 S-wave travel-time anomaly in upper mantle
+------------------------------------------------------------------------------------------
+
+Shells (Main work loop):
+Earth5R-type4AplusA.bcs 	 Boundary condition file
+PB2002_plates.dig 	 	 	 Outlines of Plates
+PB2002_boundaries.dig 	 	 Plate-Pair boundaries
+------------------------------
+X 	 	 	 Approx Vel solution
+X 	 	 	 Mantle Flow -> HOC79ii.dig (if iConve=1), Baum887.dig (if iConve=2), PB2002_plates.dig (if iConve=3 or 4)
+X	 	 	 Torque & Force balance -> Only if iConve=6
+------------------------------------------------------------------------------------------
+
+Shells (Final OR Non-Iterating run):
+Earth5R-type4A.bcs 	 	 	 Boundary condition file
+PB2002_plates.dig 	 	 	 Outlines of Plates
+PB2002_boundaries.dig 	 	 Plate-Pair boundaries
+------------------------------
+X 	 	 	 Approx Vel solution
+X 	 	 	 Mantle Flow -> HOC79ii.dig (if iConve=1), Baum887.dig (if iConve=2), PB2002_plates.dig (if iConve=3 or 4)
+X 	 	 	 Torque & Force balance -> Only if iConve=6
+------------------------------------------------------------------------------------------
+
+OrbScore:
+GPS2006_selected_subset.gps                        (.gps | Geodetic Velocity)
+robust_interpolated_stress_for_OrbScore2.dat       (.dat | Stress Direction)
+aggregated_offset_rates.dig                        (.dig | Fault Slip Rate)
+magnetic_PB2002.dat                                (.dat | Seafloor Spreading Rates)
+GCMT_shallow_m5p7_1977-2017.eqc                    (.eqc | Smoothed Seismic Correlation)
+Fouch_2004_SKS_splitting-selected.dat              (.dat | Seismic Anisotropy | Only if SC)
+------------------------------------------------------------------------------------------

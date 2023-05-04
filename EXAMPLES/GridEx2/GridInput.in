@@ -1,0 +1,12 @@
+2,2,3         ! = NumVars, Cells, Levels (* format)
+----------
+tauMax        ! = VarName(1)
+1.E12         ! = VarValsMin(1)
+1.E13         ! = VarValsMax(1)
+3             ! = NumMods(1)
+----------
+fFric         ! = VarName(2)
+0.025         ! = VarValsMin(2)
+0.80          ! = VarValsMax(2)
+3             ! = NumMods(2)
+----------

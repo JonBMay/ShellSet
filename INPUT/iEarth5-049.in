@@ -1,0 +1,44 @@
+iEarth5-049.in:
+0.10            fFric = fault friction coefficient (during slip)
+0.85            cFric = continuum friction coefficient
+1.00            Biot  = coefficient of pore pressure in effective-normal-stress equation
+0.00            Byerly= fractional friction reduction on master fault [Bird & Kong, 1994]
+2.3E9,9.5E4     aCreep = shear-stress coefficient of creep law, crust/mantle
+4000.,18314.    bCreep = creep activation energy/n/R, in K, crust/mantle
+0.,0.0171       cCreep = derivative of exponential numerator w.r.t. depth, in K/m, crust/mantle
+5.E8,5.E8       dCreep = maximum shear stress at any temperature/strain-rate, Pa, crust/mantle
+0.333333        eCreep = exponent on strain-rate in creep-strength law, = 1/n, same for crust & mantle
+1412.,6.1E-4    tAdiab, gradie = intercept (in K) and slope (in K/m) of upper mantle adiabat
+400.E3          zBAsth = depth (in m) of base of upper mantle (end of olivine=rich layer)
+AF              pltRef = plate held fixed in boundary conditions (or reference frame in global model)
+0,1.00 	        iConve, vTimes = convection under lithosphere (codes 0:6 given below, vTimes needed for iConve > 0; also see trHMax below)
+0.0             trHMax = upper limit on basal tractions from mantle convection (in Pa; may be 0.0 for free-slip, regardless of iConve)
+2.0E+12         tauMax = limit on down-dip integral of tractions in subduction megathrusts, oceanic/continental (or one value for both)
+1032.           rhoH2O = density of (salty?) water, in kg/m**3, at atmospheric pressure and surface T (e.g., 4 C)
+2889.,3332.     rhoBar = mean densities of crust/mantle rocks, in kg/m**3, at 0K and low P
+3125.           rhoAst = density of asthenosphere, in kg/m**3, at its typical adiabatic temperature, but low P
+9.8             gMean  = gravitational acceleration at surface of planet, m/s**2 (e.g., 9.8 for Earth)
+1000.           oneKm  = length of 1 kilometer, expressed in current length units (e.g., 1000. meters if using SI units)
+6371000.        radius = mean radius of the planet, in m (if using SI units) (e.g., 6371000. for Earth)
+2.4E-5,3.94E-5  alphaT = volumetric thermal expansion coefficients, in /C or /K, crust/mantle
+2.7,3.20        conduc = thermal conductivity, crust/mantle (for SI units, in W/m/C)
+3.5E-7,3.2E-8   radio = volumetric radioactive heat production (for SI units, in W/m**3)
+273.            tSurf = surface temperature of planet, in K
+1223.,1673.     temLim = temperature limits (due to melting) in crust/mantle-lithosphere, in Kelvin(!)
+50              maxItr = maximum number of iterations of the velocity solution (e.g., 80?)
+0.0005          okToQt = acceptable level of fractional change in RMS velocity which stops iteration
+50.E6           refStre = reference level of shear stress in lithosphere, for initiating linearization of rheology, in Pa
+1.00E-11        okDelV = acceptable level of velocity errors due to necessary limit on highest viscosity, in m/s
+F               everyP = switch: Shall velocities of nodes be output in every iteration (for convergence studies)?
+======================================================================================================
+MEMO about possible values of iConve:
+0 = lower mantle is static (with respect to AF)
+1 = Hager and O'Connell (1979) minimum-flow kinematic Model II
+2 = Baumgardner (1988) dynamic model of Figure 7A-F, * 10. because Ra was too low
+3 = PB2002 (Bird, 2003) (i.e., lower mantle flow is identical to surface velocities)
+4 = PB2002 flow which drags continents; but NO drag on oceanic lithosphere
+5 = drag on base of subduction forearc only (for local models)
+6 = sense & traction from traction pole vector for each plate (use vTimes = 1.0)
+
+It is important within the parameter file that lines with multiple inputs seperated by a comma must not have a space before
+or after the comma (e.g. 5.E8,5.E8  not  5.E8, 5.E8).
