@@ -1,7 +1,6 @@
 # ShellSet - Parallel Dynamic Neotectonic Modelling
 
-ShellSet is an MPI parallelization of the combination of OrbData, Shells and OrbScore, to which we have added two input options: a model list and a grid search algorithm.
-ShellSet was developed by Dr Jon B. May (INGV), Prof. Peter Bird (UCLA) & Dr Michele M. C. Carafa (INGV).
+ShellSet was developed by Dr Jon B. May (INGV), Prof. Peter Bird (UCLA) & Dr Michele M. C. Carafa (INGV). It is an MPI parallelization of the combination of OrbData, Shells and OrbScore, to which we have added two input options: a model list and a grid search algorithm.
 
 Within this repository you will find four directories:
 1. src -> Fortran program files and Python routines
