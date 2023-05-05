@@ -68,7 +68,7 @@ Fouch_2004_SKS_splitting-selected.dat -> Upper-mantle anisotropy data as fast-po
 GCMT_shallow_m5p7_1977-2017.eqc -> Seismic catalog  
 GPS2006_selected_subset.gps -> Geodetic benchmark positions and relative horizontal velocities  
 GridInput.in -> Information related to the grid search option  
-HOC79ii.dig -> [Hager and O'Connell (1979)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JB084iB03p01031?casa_token=Oc-Qr2482YoAAAAA:9VsVcCBfkEIdokY1WOJURg2VK2BqSRHg-HbmRKCWDxzeW94KnzWajcN-jMI1Yps6H_-aL9QbPAzqFw) Model II.   
+HOC79ii.dig -> [Hager and O'Connell (1979)](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JB084iB03p01031?casa_token=Oc-Qr2482YoAAAAA:9VsVcCBfkEIdokY1WOJURg2VK2BqSRHg-HbmRKCWDxzeW94KnzWajcN-jMI1Yps6H_-aL9QbPAzqFw) Model II  
 iEarth5-049.in -> Parameter input file  
 InputFiles.in -> Names of input files required for ShellSet  
 ListInput.in -> List of models to be run  
