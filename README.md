@@ -42,7 +42,7 @@ MOD_Data.f90 -> Routines used by OrbData5
 MOD_Score.f90 -> Routines used by OrbScore2  
 MOD_SharedSubs.f90 -> Globally shared variables and data blocks  
 MOD_ShellSet.f90 -> Routines used within the ShellSet update  
-MOD_Shells.f90 -> Routines used by SHELLS_v5.0 
+MOD_Shells.f90 -> Routines used by SHELLS_v5.0  
 MOD_VarCheck.f90 -> Routines for pre-run variable checks - separated to simplify user personalisation  
 OrbData5.f90 -> OrbData5 program unit - mostly original with few modifications  
 OrbScore2.f90 -> OrbScore2 program unit - mostly original with few modifications  
