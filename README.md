@@ -64,7 +64,7 @@ Earth5R.feg -> Finite element grid file
 Earth5R-type4A.bcs -> Boundary conditions (no plate-interior VBCs)  
 Earth5R-type4AplusA.bcs -> Boundary conditions  
 ETOPO20.grd -> 20-minute gridded global relief data  
-Fouch_2004_SKS_splitting-selected.dat -> Upper-mantle anisotropy data as fast-polarization azimuths from SKS splitting with SKS splitting times in s  
+Fouch_2004_SKS_splitting-selected.dat -> Upper-mantle anisotropy data as fast-polarization azimuths from SKS splitting (SKS splitting in sec)  
 GCMT_shallow_m5p7_1977-2017.eqc -> Seismic catalog  
 GPS2006_selected_subset.gps -> Geodetic benchmark positions and relative horizontal velocities  
 GridInput.in -> Information related to the grid search option  
