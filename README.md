@@ -33,7 +33,7 @@ There are 3 examples included within the ShellSet package.
 ## Potential issues with Python routines
 Some users have reported issues with GUI visualisation when using WSL2. These issues have been fixed by installing VcXsrv, following instructions from [here](https://techcommunity.microsoft.com/t5/modern-work-app-consult-blog/running-wsl-gui-apps-on-windows-10/ba-p/1493242).  
 Both the plotting routine and GUI have only been tested in Python version 3, specifically version 3.8.10.  
-Some users may need to manually install tkinter (as well as other Python libraries), the terminal error message will generally give information on how to do this if required but note that users should download the version which corresponds to their Python version (while also noting that the provided Python routines are only tested in v3.x).
+Some users may need to manually install tkinter (as well as other Python libraries), a terminal error message will generally give information on how to do this if required but note that users should download the version which corresponds to their Python version (while also noting that the provided Python routines are only tested in v3.8.10).
 
 
 ## Outline of each file in src:
