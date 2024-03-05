@@ -20,7 +20,9 @@ Please contact jonbryan.may@ingv.it with any issues, questions or suggestions.
 ShellSet has been designed to work in a Linux environment, either as the main or guest OS (e.g., WSL2). The following is a list of ShellSet requirements, each of which is freely available from Intel in their oneAPI toolkits, specifically the Base and HPC toolkits:
 1. Intel Fortran compiler
 2. Intel Math Kernel Library
-3. Message Passing Interface (MPI) environment
+3. Message Passing Interface (MPI) environment  
+  
+ShellSet was developed using the 2022 version of Intel oneAPI, it has since been tested with both 2023 & 2024 versions.  
 
 
 ## Examples:
