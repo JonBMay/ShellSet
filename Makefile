@@ -6,7 +6,7 @@ FC  = ifort
 MPI = mpiifort
 
 # Compiler Flags
-INCL  = -I/opt/intel/oneapi/mkl/2021.3.0/include/intel64/ilp64 -I"/opt/intel/oneapi/mkl/2021.3.0/include"
+INCL  = -I${MKLROOT}/include/intel64/ilp64 -I"${MKLROOT}/include"
 DBFLAGS  = -check all -traceback -debug -check noarg_temp_created
 OPTFLAGS = -xHost -ipo -unroll-aggressive
 
